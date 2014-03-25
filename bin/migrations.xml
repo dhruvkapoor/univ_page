@@ -1,0 +1,5 @@
+<migrations>
+	<migration>BOOKS</migration>
+	
+	<migration>PUBLICATIONS</migration>
+</migrations>

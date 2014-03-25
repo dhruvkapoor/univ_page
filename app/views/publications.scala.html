@@ -1,0 +1,40 @@
+@(books: List[Book])(papers: List[Paper])
+
+<!DOCTYPE html>
+
+<html>
+
+	<style>
+	
+		h1 {
+			font-family:sans-serif;
+		}
+		
+		li {
+			font-family:sans-serif;
+			margin:.5em;
+		}
+	</style>
+
+    <body>
+    	<h1>Books</h1>
+    	<ol>
+    	@for(book <- books) {
+    		<li>
+    			@book.authors, "<a href="@book.link">@book.name</a>," @book.details
+    		</li>
+    	}
+    	</ol>
+    	
+    	<h1>Publications</h1>
+    	<ol>
+    	@for(paper <- papers) {
+    		<li>
+    			@paper.authors, "@paper.title," @paper.details
+    			<br />
+    			[<a href="@paper.abstractLink">Abstract</a>] [<a href="@paper.pdfLink">PDF</a>]
+    		</li>
+    	}
+    	</ol>
+    </body>
+</html>

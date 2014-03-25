@@ -1,14 +1,19 @@
 package controllers
 
 import play.api._
+import play.api.Play.current
 import play.api.mvc._
+import play.api.mvc.Result
+import play.api.libs.ws._
 
-import models.Publication
-import models.Publications
+import models.{Book, Books, Paper, Papers}
 
-import util.Driver.simple._
-import util.DatabaseInteraction.dbSession
+import util.db.Driver.simple._
+import util.db.DatabaseInteraction.dbSession
 import util.Configurations
+
+import scala.xml.XML._
+import scala.collection.mutable.StringBuilder
 
 object Application extends Controller {
 
@@ -16,11 +21,11 @@ object Application extends Controller {
     Ok(views.html.index("Your new application is ready."))
   }
   
-  def testPage = Action {
+  def publications = Action {
     dbSession withSession { implicit session =>
-      val publications = TableQuery[Publications]
-      publications.insert(Publication(-1, "Details of the publication"))
+      val books = TableQuery[Books].list
+      val papers = TableQuery[Papers].list
+      Ok(views.html.publications(books)(papers))
     }
-    Ok(views.html.test("Does this")("Work?"))
   }
 }
