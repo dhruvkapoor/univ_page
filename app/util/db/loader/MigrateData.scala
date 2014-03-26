@@ -6,9 +6,11 @@ import play.api.Play.current
 
 import util.db.Driver.simple._
 import util.db.DatabaseInteraction.dbSession
-import models.{Book, Books, Paper, Papers, Migration, Migrations}
+import models.{Migration, Migrations}
+import models.{Book, Books, Paper, Papers, ResearchArea, ResearchAreas, ResearchAreaDetail, ResearchAreaDetails}
 
 import scala.xml.XML._
+import scala.collection.mutable.ListBuffer
 
 object MigrateData {
 
@@ -34,6 +36,9 @@ object MigrateData {
       
       // Migrate papers 
       MigrateData migratePapers
+      
+      // Migrate research areas
+      MigrateData migrateResearchAreas
     }
   }
       
@@ -55,12 +60,12 @@ object MigrateData {
         // Parse into rows of the books table
         val books = TableQuery[Books]
         (publicationsXml \\ "book") map { book =>
-          books.insert(Book(-1, 
+          books insert Book(-1, 
               (book \\ "authors").text, 
               (book \\ "name").text, 
               (book \\ "details").text, 
               (book \\ "link").text
-          ))
+          )
 	    }
         
         // Mark migration as completed
@@ -87,17 +92,53 @@ object MigrateData {
         // Parse into rows of the papers table
         val papers = TableQuery[Papers]
         (publicationsXml \\ "paper") map { paper =>
-          papers.insert(Paper(-1,
+          papers insert Paper(-1,
               (paper \\ "authors").text, 
               (paper \\ "title").text, 
               (paper \\ "details").text,
               (paper \\ "abstract_link").text,
               (paper \\ "pdf_link").text
-          ))
+          )
 	    }
         
         // Mark migration as completed
         this setMigrationFinished paperMigration
+      }
+    }
+  }
+      
+  def migrateResearchAreas {
+    
+    dbSession withSession { implicit session =>
+      val researchAreaMigration = this getMigration "RESEARCH_AREAS"
+      if (researchAreaMigration hasFinished)
+        // Return if migration has already completed
+        return
+      
+      // Migrate research areas if the migration hasn't happened yet
+      session.withTransaction {
+        
+        // Open up the research areas xml
+        val file = Play.getFile("/migrations/research_areas.xml")
+        val researchAreasXml = loadFile(file)
+    
+        // Parse into rows of the research areas table
+        val researchAreas = TableQuery[ResearchAreas]
+        val researchAreaDetails = TableQuery[ResearchAreaDetails]
+        (researchAreasXml \\ "research_area") map { researchArea =>
+          val researchAreaId = (researchAreas returning researchAreas.map(_.id)) insert ResearchArea(-1, 
+              (researchArea \\ "name").text, 
+              (researchArea \\ "laboratory").text
+          )
+          
+          // Read through the description fields and add to the ResearchAreaDetails table
+          (researchArea \\ "details" \\ "description") map { researchAreaDescription =>
+            researchAreaDetails insert ResearchAreaDetail(-1, researchAreaId, researchAreaDescription.text)
+          }
+	    }
+        
+        // Mark migration as completed
+        this setMigrationFinished researchAreaMigration
       }
     }
   }

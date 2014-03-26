@@ -1,5 +1,5 @@
 <migrations>
 	<migration>BOOKS</migration>
-	
-	<migration>PUBLICATIONS</migration>
+	<migration>PAPERS</migration>
+	<migration>RESEARCH_AREAS</migration>
 </migrations>
