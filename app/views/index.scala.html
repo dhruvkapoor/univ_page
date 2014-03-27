@@ -5,11 +5,16 @@
 <html>
 	<body>
 		<h1><a href='@routes.Application.publications'>Publications</a></h1>
+		<ul>
+			<h2><li><a href='@routes.Application.publications#books'>Books</a></li></h2>
+			<h2><li><a href='@routes.Application.publications#journals'>Journals</a></li></h2>
+			<h2><li><a href='@routes.Application.publications#conferences'>Conferences</a></li></h2>
+		</ul>
 		<h1>Research Areas</h1>
-		<ol>
+		<ul>
 		@for( researchArea <- researchAreas ) {
-			<li><h2><a href='@routes.Application.researchArea(researchArea.id)'>@researchArea.name</a></h2></li>
+			<h2><li><a href='@routes.Application.researchArea(researchArea.id)'>@researchArea.name</a></li></h2>
 		}
-		</ol>	
+		</ul>	
 	</body>
 </html>

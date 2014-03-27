@@ -6,7 +6,7 @@
 
 	<style>
 	
-		h1 {
+		h2 {
 			font-family:sans-serif;
 		}
 		
@@ -22,7 +22,9 @@
 	</style>
 
     <body>
-    	<h1>Books</h1>
+    	<h1>Publications</h1>
+    
+    	<h2 id='books'>Books</h2>
     	<ol>
     	@for(book <- books) {
     		<li>
@@ -38,19 +40,21 @@
     		)
     	) { titleToPapers =>	
 			@titleToPapers.map{ case(title, papers) =>
-				<h1>@title</h1>
-    			<ol>
-				@for(paper <- papers) {
-	    			<li>
-	    				@paper.authors, <div class='paper_title'>"@paper.title,"</div> @paper.details
-	    				<br />
-	    				@if(paper.abstractLink.length > 0) {
-	    					[<a href="@paper.abstractLink">Abstract</a>] 
-						}
-						@if(paper.pdfLink.length > 0) {
-							[<a href="@paper.pdfLink">PDF</a>]
-						}
-	    			</li>
+				@if(papers.length > 0) {
+					<h2 id='@{papers.head.category + 's'}'>@title</h2>
+    				<ol>
+					@for(paper <- papers) {
+	    				<li>
+	    					@paper.authors, <div class='paper_title'>"@paper.title,"</div> @paper.details
+	    					<br />
+	    					@if(paper.abstractLink.length > 0) {
+	    						[<a href="@paper.abstractLink">Abstract</a>] 
+							}
+							@if(paper.pdfLink.length > 0) {
+								[<a href="@paper.pdfLink">PDF</a>]
+							}
+	    				</li>
+	    			}
     			}
     			</ol>
     		}
