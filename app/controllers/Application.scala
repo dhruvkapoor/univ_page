@@ -6,7 +6,7 @@ import play.api.mvc._
 import play.api.mvc.Result
 import play.api.libs.ws._
 
-import models.{Book, Books, Paper, Papers}
+import models.{Books, Paper, Papers, ResearchAreas, ResearchAreaDetails}
 
 import util.db.Driver.simple._
 import util.db.DatabaseInteraction.dbSession
@@ -16,10 +16,12 @@ import scala.xml.XML._
 import scala.collection.mutable.StringBuilder
 
 object Application extends Controller {
-
+  
   def index = Action {
-    Ok(views.html.index("Your new application is ready."))
-  }
+    dbSession withSession { implicit session =>
+    	Ok(views.html.index(TableQuery[ResearchAreas].list))
+    }
+  } 
   
   def publications = Action {
     dbSession withSession { implicit session =>
@@ -28,5 +30,17 @@ object Application extends Controller {
       val conferencePapers = TableQuery[Papers].filter(_.category === "conference").list
       Ok(views.html.publications(books)(journalPapers)(conferencePapers))
     }
+  }
+  
+  def researchArea(id: Long) = Action {
+    dbSession withSession { implicit sesion =>
+      val researchArea = TableQuery[ResearchAreas].filter(_.id === id).list.head
+      val researchAreaDetails = TableQuery[ResearchAreaDetails].filter(_.researchAreaId === id).list
+      Ok(views.html.researchArea(researchArea)(researchAreaDetails))
+    }
+  }
+
+  def help = Action {
+    Ok(views.html.help("Play API"))
   }
 }

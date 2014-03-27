@@ -1,7 +1,15 @@
-@(message: String)
+@(researchAreas: List[ResearchArea])
 
-@main("Welcome to Play") {
+<!DOCTYPE html>
 
-    @play20.welcome(message)
-
-}
+<html>
+	<body>
+		<h1><a href='@routes.Application.publications'>Publications</a></h1>
+		<h1>Research Areas</h1>
+		<ol>
+		@for( researchArea <- researchAreas ) {
+			<li><h2><a href='@routes.Application.researchArea(researchArea.id)'>@researchArea.name</a></h2></li>
+		}
+		</ol>	
+	</body>
+</html>

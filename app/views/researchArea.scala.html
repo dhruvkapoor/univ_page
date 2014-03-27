@@ -1,0 +1,15 @@
+@(researchArea: ResearchArea)(researchAreaDetails: List[ResearchAreaDetail])
+
+<!DOCTYPE html>
+
+<html>
+	<body>
+		<h1>@researchArea.name</h1>
+		<h2>@researchArea.laboratory</h2>
+		<ol>
+		@for( researchAreaDetail <- researchAreaDetails ) {
+			<li>@researchAreaDetail.description</li>
+		}
+		</ol>
+	</body>
+</html>
