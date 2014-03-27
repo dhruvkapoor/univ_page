@@ -24,8 +24,9 @@ object Application extends Controller {
   def publications = Action {
     dbSession withSession { implicit session =>
       val books = TableQuery[Books].list
-      val papers = TableQuery[Papers].list
-      Ok(views.html.publications(books)(papers))
+      val journalPapers = TableQuery[Papers].filter(_.category === "journal").list
+      val conferencePapers = TableQuery[Papers].filter(_.category === "conference").list
+      Ok(views.html.publications(books)(journalPapers)(conferencePapers))
     }
   }
 }

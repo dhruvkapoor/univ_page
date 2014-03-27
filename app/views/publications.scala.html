@@ -1,4 +1,4 @@
-@(books: List[Book])(papers: List[Paper])
+@(books: List[Book])(journalPapers: List[Paper])(conferencePapers: List[Paper])
 
 <!DOCTYPE html>
 
@@ -14,6 +14,11 @@
 			font-family:sans-serif;
 			margin:.5em;
 		}
+		
+		.paper_title {
+			font-weight: bold;
+			display: inline;
+		}
 	</style>
 
     <body>
@@ -26,15 +31,29 @@
     	}
     	</ol>
     	
-    	<h1>Publications</h1>
-    	<ol>
-    	@for(paper <- papers) {
-    		<li>
-    			@paper.authors, "@paper.title," @paper.details
-    			<br />
-    			[<a href="@paper.abstractLink">Abstract</a>] [<a href="@paper.pdfLink">PDF</a>]
-    		</li>
+    	@defining(
+    		Map (
+    			"Journal Papers" -> journalPapers,
+    			"Conference Papers" -> conferencePapers
+    		)
+    	) { titleToPapers =>	
+			@titleToPapers.map{ case(title, papers) =>
+				<h1>@title</h1>
+    			<ol>
+				@for(paper <- papers) {
+	    			<li>
+	    				@paper.authors, <div class='paper_title'>"@paper.title,"</div> @paper.details
+	    				<br />
+	    				@if(paper.abstractLink.length > 0) {
+	    					[<a href="@paper.abstractLink">Abstract</a>] 
+						}
+						@if(paper.pdfLink.length > 0) {
+							[<a href="@paper.pdfLink">PDF</a>]
+						}
+	    			</li>
+    			}
+    			</ol>
+    		}
     	}
-    	</ol>
     </body>
 </html>

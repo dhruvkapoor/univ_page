@@ -33,7 +33,7 @@
 	
 	<papers>
 	
-		<paper type="journal">
+		<paper category="journal">
 			<authors>Ali Keyhani, A.M. Annaswamy</authors>
 			<title>A New Automatic Generation Control with Heterogeneous Assets for Integration of Renewables</title>
 			<details>IEEE PES Conference on Innovative Smart Grid Technologies, Jan. 2012</details>
@@ -41,7 +41,7 @@
 			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/109.pdf</pdf_link>
 		</paper>
 		
-		<paper type="journal">
+		<paper category="journal">
 			<authors>Abir Chatterjee, Ali Keyhani, Dhruv Kapoor</authors>
 			<title>Identification of Photovoltaic Source Models</title>
 			<details>IEEE Transactions on Energy Conversion, Vol. 26, No. 3, Sep. 2011. pp. 883 - 889</details>
@@ -49,7 +49,7 @@
 			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/106.pdf</pdf_link>
 		</paper>
 		
-		<paper type="journal">
+		<paper category="journal">
 			<authors>Sachin V. Puranik, Ali Keyhani, Farshad Khorrami</authors>
 			<title>State-Space Modeling of Proton Exchange Membrane Fuel Cell</title>
 			<details>IEEE Transactions on Energy Conversion, Vol. 25, No. 3, Sep. 2010. pp. 804 - 813</details>
@@ -57,7 +57,7 @@
 			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/104.pdf</pdf_link>
 		</paper>
 		
-		<paper type="journal">
+		<paper category="journal">
 			<authors>Sachin V. Puranik, Ali Keyhani, Farshad Khorrami</authors>
 			<title>Neural Network Modeling of Proton Exchange Membrane Fuel Cell</title>
 			<details>IEEE Transactions on Energy Conversion, Vol. 25, No. 2, Jun. 2010. pp. 474 - 483</details>
@@ -65,12 +65,828 @@
 			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/103.pdf</pdf_link>
 		</paper>
 		
-		<paper type="journal">
+		<paper category="journal">
 			<authors>Prashanth Krishnamurthy, Wenzhe Lu, Farshad Khorrami, Ali Keyhani</authors>
 			<title>Robust Force Control of an SRM-Based Electromechanical Brake and Experimental Results</title>
 			<details>IEEE Transactions on Control Systems Technology, Vol. 17, No. 6, Nov. 2009. pp. 1306 - 1317</details>
 			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/100.htm</abstract_link>
 			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/100.pdf</pdf_link>
+		</paper>
+		
+		<paper category="journal">
+			<authors>Ali Keyhani</authors>
+			<title>Cyber-Controlled Smart Microgrid Systems of the Future: The High Penetration of Renewable and Green Energy Sources</title>
+			<details>New Research Directions for Future Cyber-Physical Energy Systems,Sheraton Baltimore City Center Hotel Baltimore, Maryland, June 2009</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/101.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/101.pdf</pdf_link>
+		</paper>
+		
+		<paper category="journal">
+			<authors>Min Dai, M.N. Marwali, Jin-Woo Jung, A. Keyhani</authors>
+			<title>Power Flow Control of a Single Distributed Generation Unit</title>
+			<details>IEEE Transactions on Power Electronics, Vol. 23, Issue 1, Jan. 2008. pp. 343 - 352</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/098.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/098.pdf</pdf_link>
+		</paper> 
+ 
+		<paper category="journal">
+			<authors>Min Dai, M.N. Marwali, Jin-Woo Jung, A. Keyhani</authors>
+			<title>A Three-Phase Four-Wire Inverter Control Technique for a Single Distributed Generation Unit in Island Mode</title>
+			<details>IEEE Transactions on Power Electronics, Vol. 23, Issue 1, Jan. 2008, pp. 322 - 331</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/097.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/097.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>Mohammad N. Marwali, Jin-Woo Jung and Ali Keyhani</authors>
+			<title>Stability Analysis of Load Sharing Control for Distributed Generation Systems</title>
+			<details>IEEE Transactions on Energy Conversion, Vol. 22, No.3, September 2007, pp. 737-745</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/096.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/096.pdf</pdf_link>
+		</paper>
+		 
+		<paper category="journal">
+			<authors>Amuliu Bogdan Proca and Ali Keyhani</authors>
+			<title>Sliding-Mode Flux Observer With Online Rotor Parameter Estimation for Induction Motors</title>
+			<details>IEEE Transactions on Industrial Electronics, Vol. 54, No.2, April 2007, pp. 716-723</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/095.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/095.pdf</pdf_link>
+		</paper>
+		
+		<paper category="journal">
+			<authors>Jin-Woo Jung and Ali Keyhani</authors>
+			<title>Control of a Fuel Cell Based Z-Source Converter</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 22, No. 2, June 2007, pp. 467-476</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/094.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/094.pdf</pdf_link>
+		</paper>
+		
+		<paper category="journal">
+			<authors>Mohammad N. Marwali, Min Dai, and Ali Keyhani</authors>
+			<title>Robust Stability Analysis of Voltage and Current Control for Distributed Generation Systems</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 21, No. 2, June 2006, pp. 516-526</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/092.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/092.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>Jin-Woo Jung and Ali Keyhani</authors>
+			<title>Modeling and Control of Fuel Cell Based Distributed Generation Systems in a Standalone AC Power Supply</title>
+			<details> Journal of Iranian Association of Electrical and Electronics Engineers, Vol. 2, No.1, Spring and Summer 2005, pp. 10-23</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/093.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/093.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>Min Dai, Ali Keyhani, and Tomy Sebastian</authors>
+			<title>Fault Analysis of a PM Brushless DC Motor Using Finite Element Method</title>
+			<details> IEEE Transactions on Energy Conversion, Volume 20, No. 1, March 2005, pp. 1-6</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/090.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/090.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>M. N. Marwali and A. Keyhani</authors>
+			<title>Control of Distributed Generation Systems Part I: Voltage and Current Control</title>
+			<details>IEEE Transactions on Power Electronics, Volume 19, No. 6, November 2004, pp. 1541-1550</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pes_dgspaper1.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/pes_dgspaper1.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>M. N. Marwali, J. W. Jung, and A. Keyhani</authors>
+			<title>Control of Distributed Generation Systems Part II: Load Sharing</title>
+			<details>IEEE Transactions on Power Electronics, Volume 19, No. 6, November 2004, pp. 1551-1561</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pes_dgspaper2.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/pes_dgspaper2.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani and Jin-Woo Jung</authors>
+			<title>Distributed Energy Systems</title>
+			<details> Journal of Iranian Association of Electrical and Electronics Engineers, Volume 1, No. 2, Summer and Fall 2004, pp. 33-40</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/086.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/086.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>Tao Li, Mohammad Shahidehpour, and Ali Keyhani</authors>
+			<title>Market power analysis in electricity markets using supply function equilibrium model</title>
+			<details> IMA Journal of Management Mathematics, Vol. 15, No. 4, 2004, pp. 339-354</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/089.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/089.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>Min Dai, A. Keyhani, T. Sebastian</authors>
+			<title>Torque ripple analysis of a PM brushless DC motor using finite element method</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 19, No. 1, March 2004, pp. 40-45</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/001.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/001.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A.B. Proca, A. Keyhani, A. El-Antably, Wenzhe Lu, Min Dai</authors>
+			<title>Analytical model for permanent magnet motors with surface mounted magnets</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 18, No. 3, Sept. 2003, pp. 386-391</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/002.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/002.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>Wenzhe Lu, A. Keyhani, A. Fardoun</authors>
+			<title>Neural network-based modeling and parameter identification of switched reluctance motors</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 18, No. 2, June 2003, pp. 284-290</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/003.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/003.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>Amuliu Bogdan Proca, A. Keyhani, J.M. Miller</authors>
+			<title>Sensorless sliding-mode control of induction motors using operating condition dependent models</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 18, No. 2, June 2003, pp. 205-212</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/004.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/004.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani</authors>
+			<title>Leader-follower framework for control of energy services</title>
+			<details>IEEE Transactions on Power Systems, Volume 18, No. 2, May 2003, pp. 837-841</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/005.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/005.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>H.B. Karayaka, A. Keyhani, G.T. Heydt, B.L. Agrawal, D.A. Selin</authors>
+			<title>Synchronous generator model identification and parameter estimation from operating data</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 18, No. 1, March 2003, pp. 121-126</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/006.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/006.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>J. Faiz, M.B.B. Sharifian, A. Keyhani, A.B. Proca</authors>
+			<title>Sensorless direct torque control of induction motors used in electric vehicle</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 18 , No. 1, March 2003, pp. 1-10</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/007.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/007.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>M. Comanescu, A. Keyhani, Min Dai</authors>
+			<title>Design and analysis of 42-V permanent-magnet generator for automotive applications</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 18, No. 1, March 2003, pp. 107-112</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/008.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/008.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A.B. Proca, A. Keyhani</authors>
+			<title>Identification of variable frequency induction motor models from operating data</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 17, No. 1, March 2002, pp. 24-31</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/009.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/009.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, M.N. Marwali, L.E. Higuera, G. Athalye, G. Baumgartner</authors>
+			<title>An integrated virtual learning system for the development of motor drive systems</title>
+			<details>IEEE Transactions on Power Systems, Volume 17, No. 1, Feb. 2002, pp. 1-6</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/010.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/010.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>J.J.R. Melgoza, G.T. Heydt, A. Keyhani, B.L. Agrawal, D. Selin</authors>
+			<title>An algebraic approach for identifying operating point dependent parameters of synchronous machines using orthogonal series expansions</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 16, No. 1, March 2001, pp. 92-98</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/011.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/011.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>J.J.R. Melgoza, G.T. Heydt, A. Keyhani, B.L. Agrawal, D. Selin</authors>
+			<title>Synchronous machine parameter estimation using the Hartley series</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 16, No. 1, March 2001, pp. 49-54</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/012.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/012.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>H. Bora Karayaka, A. Keyhani, G.T. Heydt, B.L. Agrawal, D.A. Selin</authors>
+			<title>Neural network based modeling of a large steam turbine-generator rotor body parameters from on-line disturbance data</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 16, No. 4, Dec. 2001, pp. 305-311</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/013.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/013.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>H.B. Karayaka, A. Keyhani, B.L. Agrawal, D.A. Selin, G.T. Heydt</authors>
+			<title>Identification of armature, field, and saturated parameters of a large steam turbine-generator from operating data</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 15, No. 2, June 2000, pp. 181-187</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/014.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/014.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>S. Pillutla, A. Keyhani</authors>
+			<title>Neural network based modeling of round rotor synchronous generator rotor body parameters from operating data</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 14, No. 3, Sept. 1999, pp. 321-327</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/015.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/015.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>S. Pillutla, A. Keyhani</authors>
+			<title>Neural network based saturation model for round rotor synchronous generator</title>
+			<details>IEEE Transactions on Energy Conversion Volume 14, No. 4, Dec. 1999, pp. 1019-1025</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/016.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/016.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>S. Pillutla, A. Keyhani</authors>
+			<title>Development and implementation of neural network observers to estimate the state vector of a synchronous generator from on-line operating data</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 14, No. 4, Dec. 1999, pp. 1081-1087</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/017.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/017.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>H.B. Karayaka, A. Keyhani, B. Agrawal, D. Selin, G.T. Heydt</authors>
+			<title>Methodology development for estimation of armature circuit and field winding parameters of large utility generators</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 14, No. 4, Dec. 1999, pp. 901-908</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/018.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/018.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, A.B. Proca</authors>
+			<title>A virtual testbed for instruction and design of permanent magnet machines</title>
+			<details>IEEE Transactions on Power Systems, Volume 14, No. 3, Aug. 1999, pp. 795-801</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/019.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/019.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>R. Wamkeue, I. Kamwa, X. Dai-Do, A. Keyhani</authors>
+			<title>Iteratively reweighted least squares for maximum likelihood identification of synchronous machine parameters from on-line tests</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 14, No. 2, June 1999, pp. 159-166</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/020.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/020.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>M.N. Marwali, A. Keyhani, W. Tjanaka</authors>
+			<title>Implementation of indirect vector control on an integrated digital signal processor-based system</title>
+			<details>IEEE Transactions on Energy Conversion, Volume 14, No. 2, June 1999, pp. 139-146</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/021.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/021.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>S.M. Miri, A. Keyhani</authors>
+			<title>Modeling of a three-phase power conditioning system and improving its transient behavior following a heavy load drop</title>
+			<details>Electric Power Systems Research Journal, Volume 25, No. 2, December 1992, pp. 137-147</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/078.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/078.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani and S.M. Miri</authors>
+			<title>Nonlinear modeling of magnetic saturation and hysteresis in an electromagnetic device</title>
+			<details>Electric Power Systems Research Journal, Volume 15, 1988, pp. 15-23</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/079.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/079.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, S.M. Miri, S. Hao</authors>
+			<title>Parameter estimation for power transformer models from time-domain data</title>
+			<details>IEEE Transactions on Power Delivery, Volume PWRD-1, No. 3, July 1986, pp. 140-146</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/081.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/081.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors> S. Horning, A. Keyhani, and  I. Kamwa</authors>
+			<title>On-Line Evaluation of a Round Rotor Synchronous Machine Parameter SetEstimated from Standstill Time-Domain Data</title>
+			<details>IEEE Transactionon Energy Conversion, Paper No. PE-143-EC-001-1997. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>S. Pillutla and A. Keyhani</authors>
+			<title>Power System Stabilization Based on Modular Neural Network Archtecture</title>
+			<details>Electrical Power &amp; Energy Systems, Vol. 19, No. 6,  pp. 411-418, 1997. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>1997</authors>
+			<title>Development of  Neural Network Model for Rotor Angle Estimation</title>
+			<details>Engineering Intelligent Systems, Vol. 5, No. 4,  </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>J. Faiz, A. Azami, A. Keyhani, and  A. Proca</authors>
+			<title>Closed-Loop Control Stability for Permanent magnet Synchronous Motor</title>
+			<details>Electrical Power&amp; Energy Systems, Vol 19, No. 5, pp. 331-337 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>H. Tsai, A. Keyhani, and A. B. Proca</authors>
+			<title>Design of Saturable Reactors for Application in Power ConditioningSystems</title>
+			<details>Electric Machines and Power Systems, Vol. 25, No. 10,  1997. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>J. A. Demcko, S. Pillutla, and A. Keyhani</authors>
+			<title>Measurement of Synchronous Generator Data from Digital Fault Recordersfor Tracking of  Parameters and Field Degradation Detection</title>
+			<details>Electric Power Systems Research, Vol. 39, No. 3, pp. 205-213, Dec. 1996. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>1997</authors>
+			<title>Identification Of High Frquency Transformer Model Parameters</title>
+			<details>Electric Power Systems Research, Vol. 42, No. 2,  </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>J. Faiz, A. Dodgari, S. Horning and A. Keyhani</authors>
+			<title>Design of a Three-Phase Self-Excited Induction Generator</title>
+			<details>IEEETrans. on Energy Conversion, Vol 10, no.3, pp.516-523,  March 1996 . </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>H. Tsai, A. Keyhani, J. Demcko, D. Selin</authors>
+			<title>Development of a Neural Network Based Saturation Model for SynchronousGenerator Analysis</title>
+			<details>IEEE Transactions on Energy Conversion, Paper95WM057-0EC, IEEE Trans. on Energy Conversion, Vol. 10,no 4, pp.617-624December 1995 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>G. Rizzoni, A. Keyhani</authors>
+			<title>Design of Mechatronics Systems: An Integrated Inter-Departmental Curriculum</title>
+			<details>International Journal of Mechatronics, Vol 5, no 7. pp 845-853 March1995 . </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper 94 SM358-2EC</authors>
+			<title>Identification of synchronous machine linear parameters from standstillstep voltage input data</title>
+			<details>IEEE Transactions on Energy Conversion,Vol.10,no2,pp. 232-240, June 1995 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, S.I. Moon, T. Leksan, S. Sebo</authors>
+			<title>System identification approach for modeling and parameter estimationof power systems elements</title>
+			<details>Electric Power Systems Research, Vol.32,pp.25-31. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper 94-WM 022-4EC</authors>
+			<title>Identification of high order synchronous generator models from SSFRtest data</title>
+			<details>IEEE Transactions on Energy Conversion, Vol. 9, no.3,pp. 593-603 Sept.1994 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper 94-WM 023-2EC</authors>
+			<title>On-line synchronous machine parameter estimation from small disturbanceoperating data</title>
+			<details>IEEE Transactions on Energy Conversion, Vol. 10no. 1, pp. 25-36, March 1995, </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>S.I. Moon, A. Keyhani</authors>
+			<title>Estimation of induction machine parameters from standstill time domaindata</title>
+			<details>IEEE Transactions on Industry Applications," Vol. 30, No.6, Nov/Dec 1994, pp. 1609-1615. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, H. Tsai, T. Leksan</authors>
+			<title>Maximum likelihood estimation of synchronous machine parameters fromstand-still time response data</title>
+			<details>IEEE Transactions on Energy Conversion, Vol. 9, pp. 98-114, March 1994. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Tumageanian, A. Keyhani, S.I. Moon, T. Leksan, L. Xu</authors>
+			<title>Maximum likelihood estimation of synchronous machine parameters from flux decay data</title>
+			<details>IEEE Transactions on Industry Applications, Vol. 30, No. 2, 433-439, March/April 1994.</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/108.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/108.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, S. I. Moon</authors>
+			<title>Maximum likelihood estimation of synchronous machine parameters and study of noise effect from DC flux decay data</title>
+			<details>http://www2.ece.ohio-state.edu/ems/IEEEPublished/107.htm</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/107.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/107.pdf</pdf_link>
+		</paper>
+		
+		<paper category="journal">
+			<authors>A. Keyhani, S. M. Miri</authors>
+			<title>Modeling of a three-phase power conditioning system and improving transientbehavior following a heavy load drop</title>
+			<details>Journal of Electrical PowerSystem Research, Vol. 25, No. 2, pp. 137-147, December 1992. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani</authors>
+			<title>Synchronous machine parameter identification</title>
+			<details>Electric Machineand Power Systems , Vol. 20, pp. 45-69, 1992. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, S. Hao, R. P. Schulz</authors>
+			<title>Maximum likelihood estimation of generator stability constants usingSSFR test data</title>
+			<details>IEEE Transactions on Energy Conversion , Vol. 6,No. 1, pp. 140-154, March 1991. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>F. L. Alvarado, C. Canizares, A. Keyhani, B. Coates</authors>
+			<title>Instructional use of declarative languages for the study of machinetransients</title>
+			<details>IEEE Transactions on Power Systems , Vol. 6, No. 2,pp. 859-866, April 1991. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, S. Chua, S. Sebo, H. Tsai</authors>
+			<title>Maximum likelihood estimation of transformer high frequency parametersfrom test data</title>
+			<details>IEEE Transactions on Power Delivery , Vol. 6, No.2, pp. 858-865, April 1991. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>B. Ardekani, A. Keyhani</authors>
+			<title>Identification of nonlinear systems using the exponential Fourier series</title>
+			<details>Int. J. Control , Vol. 50, No. 4, pp. 1553-1558, 1989. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>W. Wagner, A. Keyhani, S. Hao, T. Wong</authors>
+			<title>A rule-based approach to decentralized voltage control</title>
+			<details>IEEETransactions on Power Systems , Vol. 5, No. 2, pp. 643-651, May 1990. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, H. Tsai, A. Abur</authors>
+			<title>Maximum likelihood estimation of high frequency machine and transformerwinding parameters</title>
+			<details>IEEE Transactions on Power Delivery , Vol.5, No. 1, pp. 212-219, January 1990. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper 89 WM 224-7 EC</authors>
+			<title>Maximum likelihood estimation of solid-rotor synchronous machine parametersfrom SSFR test data</title>
+			<details>IEEE Transactions on Energy Conversion , Vol.4, No. 3, pp. 551-558 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper 89 WM 228-8 EC</authors>
+			<title>The effects of noise on frequency-domain parameter estimation of synchronousmachine models</title>
+			<details>IEEE Transactions on Energy Conversion , Vol. 4,No. 4, pp. 600-607 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper 88SM539-9</authors>
+			<title>Evaluation of power flow techniques for personal computers</title>
+			<details>IEEETransactions on Power Systems, Vol. 4, No. 2, pp. 817-826 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+ 
+ 		<paper category="journal">
+ 			<authors>A. Keyhani, H. Tsai</authors>
+ 			<title>IGSPICE simulation of induction machines with saturable inductances</title>
+ 			<details>IEEE Transactions on Energy Conversion , Vol. 4, No. 1, pp. 118-125(paper 88SM611-6), March 1989.</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/102.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/102.pdf</pdf_link>
+		</paper> 
+
+		<paper category="journal">
+			<authors>A Keyhani, S. Hao, W. Wagner</authors>
+			<title>A local network model for decentralized voltage control</title>
+			<details>ElectricPower Systems Research Journal , Vol. 16, pp. 119-126, 1989. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper 87SM642-2</authors>
+			<title>Microcomputer-aided data acquisition system for laboratory testingof transformers and electrical machines</title>
+			<details>IEEE Transactions on PowerSystems , Vol. 3, No. 3, pp. 1328-1334 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, S. Miri</authors>
+			<title>Nonlinear modeling of magnetic saturation and hysteresis in an electromagneticdevice</title>
+			<details>Electric Power Systems Research Journal , Vol. 15, pp.15-23, 1988. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Abur, A. Keyhani, H. Bakhtiari</authors>
+			<title>Auto regressive filters for the identification and replacement of baddata in power system state estimation</title>
+			<details>IEEE Transactions on PowerSystems , Vol. 2, No. 3, pp. 552-560, August 1987. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, M. Katbab, A. Hemami</authors>
+			<title>Digital simulation and spectral density analysis of low-frequency poweroscillations for array processor-based applications</title>
+			<details>ElectricalPower and Energy Systems , Vol. 9, No. 3, pp. 163-172, July 1987. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>D. G. Kasten, A. Keyhani</authors>
+			<title>Computer applications in power system analysis at The Ohio State University</title>
+			<details>IEEE Transactions on Voltage and Power Systems, 2, Vol. 1, No. 1,pp. 252-256, February 1987. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, A. Abur</authors>
+			<title>Performance evaluation of a 64-bit array processor and VAX 11/780 forpower systems security functions</title>
+			<details>Electric Power Systems Research, Vol. 10, No. 2, pp. 149-156, May 1986. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, S. M. Miri</authors>
+			<title>Observers for tracking of synchronous machine parameters and detectionof incipient faults</title>
+			<details>IEEE Transactions on Energy Conversion , Vol.1, No. 2, pp. 184-192, June 1986. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, S. M. Miri, S. Hao</authors>
+			<title>Parameter estimation for power transformer models from time-domaindata</title>
+			<details>IEEE Transactions on Power Systems , Vol. 1, No. 3, pp. 140-146.July 1986. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, A. Abur</authors>
+			<title>Knowledge-based power flow models</title>
+			<details>Electric Power Systems ResearchJournal , Vol. 9, No. 2, pp. 183-191, November 1985. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani</authors>
+			<title>Study of fast decoupled load flow algorithms with substantially reducedmemory requirements</title>
+			<details>Electric Power Systems Research Journal ,Vol. 9, No. 1, pp. 1-9, June 1985. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, A. Abur</authors>
+			<title>A comparative study of polar and Cartesian coordinate algorithms forpower system state estimation problems</title>
+			<details>IEE Proceedings Part C, Vol. 132, No. 3, pp. 132-138, May 1985. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani</authors>
+			<title>Development of an interactive power system research simulator</title>
+			<details>IEEETransactions on Power Apparatus and Systems , Vol. 103, No. 3, pp. 516-521,March/April 1984. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>D. Kasten, A. Keyhani, S. Sebo, N. Smith</authors>
+			<title>Innovative features in the Electric Power Program at The Ohio StateUniversity</title>
+			<details>IEEE Transactions on Power Apparatus and Systems ,Vol. 103, No. 3, pp. 521-527, March/April 1984. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+		
+		<paper category="journal">
+			<authors>A. Keyhani, S. M. Miri</authors>
+			<title>On-line weather-sensitive and industrial group bus load forecastingfor microprocessor-based applications</title>
+			<details>IEEE Transactions on PowerApparatus and Systems , Vol. 102, No. 12, pp. 3868-3876, December 1983.</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/099.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/099.pdf</pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. Keyhani, T. Eliassi</authors>
+			<title>A simulation study for recursive prediction of hourly load demand</title>
+			<details>IEEE Transactions on Power Apparatus and Systems Vol. 97, No. 1,March/April 1978 [abstract]. Full paper in IEEE Power Industry ComputerApplication,, May 1977, pp. 228-236. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>A. El-Abiad, A. Keyhani</authors>
+			<title>Optimal automatic generation control of thermal units of a power system</title>
+			<details>Computerized Operation of Power Systems, S. C. Sanulesco, ed. Rotterdam,The Netherlands: Elsevier Scientific Publishing Co., 1976, pp. 224-257. </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper A76-458-0</authors>
+			<title>Real-time modeling techniques for application to automatic generationcontrol</title>
+			<details>IEEE Transactions on Power Apparatus and Systems, Vol.95, No. 1, November/December 1976 [abstract]. Full paper in IEEE Publication76CH1135-3 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+
+		<paper category="journal">
+			<authors>paper A75-590-0</authors>
+			<title>Dynamic system load generation control using variable pressure steamgenerators</title>
+			<details>IEEE Transactions on Power Apparatus and Systems ,Vol. 75, No. 2, pp. 1924-1925, November/ December 1975 [abstract]. Fullpaper in IEEE Publication 75CH1034-8 </details>
+			<abstract_link></abstract_link>
+			<pdf_link></pdf_link>
+		</paper>
+		
+		<paper category="journal">
+			<authors>A Keyhani, A. El-Abiad</authors>
+			<title>One-step-ahead load forecasting for on-line application</title>
+			<details>IEEE Power Apparatus and Systems , Vol. 75, No. 1, p. 1092, July/August 1975. Full paper in IEEE Publication 74CH0921-7 (paper C74027-8),1974.</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/105.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/105.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>Abir Chatterjee, Ali Keyhani</authors>
+			<title>Thevenin’s Equivalent of Photovoltaic Source Models for MPPT and Power Grid Studies</title>
+			<details>IEEE Power &amp; Energy Society General Meeting, 24-28 July, 2011, Detroit, Michigan</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/1002.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/1002.pdf</pdf_link>
+		</paper>
+		
+		<paper category="conference">
+			<authors>Ali Keyhani</authors>
+			<title>Modeling of Photovoltaic Microgrids for Bulk Power Grid Studies</title>
+			<details>IEEE Power &amp; Energy Society General Meeting, 24-28 July, 2011, Detroit, Michigan </details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/1001.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/1001.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>Ali Keyhani, Sachin Puranik, Abir Chatterjee</authors>
+			<title>Cyber Smart Grid Systems of the Future: Integration of Renewable and Green Energy Sources</title>
+			<details>XVIII Congresso Brasileiro Autoatica, 13-16 September, 2010, Bonito, Brazil </details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/1003.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/1003.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>Ali Keyhani, Jin-Woo Jung, Min Dai</authors>
+			<title>Control of Renewable Energy Sources in Smart Grid Systems</title>
+			<details>Smart Grids Africa,28-30 July 2008, Johannesburg, South Africa </details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/001_1.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/001_1.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>Ali Keyhani, Wenzhe Lu, and Gerald T. Heydt</authors>
+			<title>Neural Network Based Composite Load Models for Power System Stability Analysis</title>
+			<details>CIMSA 2005 ¨C IEEE International Conference on Computational Intelligence for Measurement Systems and Applications, 20-22 July 2005, Giardini Naxos, Italy</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/091.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/091.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>Min Dai, Mohammad N. Marwali, Jin-Woo Jung, Ali Keyhani</authors>
+			<title>A PWM Rectifier Control Technique for Three-Phase Double Conversion UPS under Unbalanced Load</title>
+			<details>IEEE Applied Power Electronics Conference and Exposition, APEC'05, Vol. 1, pp.548-552, March 2005, Austin, TX</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/C_2.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/c2.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>Jin-Woo Jung, Min Dai, and Ali Keyhani</authors>
+			<title>Modeling and Control of a Fuel Cell Based Z-Source Converter</title>
+			<details>IEEE Applied Power Electronics Conference and Exposition, APEC'05, Vol. 2, pp. 1112-1118, March 6-10, 2005, Austin, TX</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/C_3.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/c3.pdf</pdf_link>
+		</paper>
+		
+		<paper category="conference">
+			<authors>Ali Keyhani, Wenzhe Lu, Gerald T. Heydt</authors>
+			<title>Composite Neural Network Load Models for Power System Stability Analysis</title>
+			<details>IEEE Power Engineering Society 2004 Power Systems Conference &amp; Exposition, October 10-13, 2004, New York city, NY</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/AKMethodologyNNLoadModeling.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/AKMethodologyNNLoadModeling.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>Min Dai, Mohammad N. Marwali, Jin-Woo Jung, and Ali Keyhani</authors>
+			<title>Power Flow Control of a Single Distributed Generation Unit with Nonlinear Local Load</title>
+			<details>IEEE Power Engineering Society 2004 Power Systems Conference &amp; Exposition, October 10-13, 2004, New York city, NY</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/082.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/082.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>J. W. Jung, M. Dai, A. Keyhani</authors>
+			<title>Optimal Control of Three-Phase PWM Inverter for UPS Systems</title>
+			<details>35th Annual IEEE Power Electronics Specialists Conference (PESC'04), June 20-24, 2004, Aachen Germany</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/085.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/085.pdf</pdf_link>
+		</paper>
+		
+		<paper category="conference">
+			<authors>Min Dai, Ali Keyhani, Jin-Woo Jung, and A.B. Proca</authors>
+			<title>A Low Cost Fuel Cell Drive System for Electrical Vehicles</title>
+			<details>Proceedings of the 2003 Global Powertrain Congress Conference and Exposition, vol. 26, Sept. 2003, USA, pp. 22-26</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/087.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/087.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>A. Keyhani, M. Dai, and J. W. Jung</authors>
+			<title>Parallel Operation of Power Converters for Applications to Distributed Energy Systems</title>
+			<details>2nd IASTED (The International Association of Science and Technology for Development) International Conference on Power and Energy Systems, Greece, June 25-28, 2002.</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/088.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/088.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>S.M. Miri, A. Keyhani</authors>
+			<title>Modeling of a three-phase power conditioning system and improving its transient behavior following a heavy load drop</title>
+			<details>1989 IEEE Industry Applications Society Annual Meeting, vol. 2, Oct. 1-5, 1989, pp. 1793-1800</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/074.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/074.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>A. Keyhani, H. Tsai</authors>
+			<title>Maximum likelihood estimation of high frequency distributed transformer parameters</title>
+			<details>1989 IFAC Symposium on Power Systems and Power Plant Control, Seoul, Korea, August 22-25, 1989</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/080.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/080.pdf</pdf_link>
+		</paper>
+
+		<paper category="conference">
+			<authors>S.M. Miri, A. Keyhani</authors>
+			<title>Solution to the ferroresonant jump problem in three-phase power conditioning systems</title>
+			<details>1989 Industrial and Commercial Power Systems Technical Conference, May 7-11, 1989, pp. 87-92</details>
+			<abstract_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/073.htm</abstract_link>
+			<pdf_link>http://www2.ece.ohio-state.edu/ems/IEEEPublished/pswd/073.pdf</pdf_link>
 		</paper>
 	</papers>
 </publications>

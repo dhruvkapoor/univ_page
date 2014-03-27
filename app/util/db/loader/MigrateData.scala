@@ -93,6 +93,7 @@ object MigrateData {
         val papers = TableQuery[Papers]
         (publicationsXml \\ "paper") map { paper =>
           papers insert Paper(-1,
+              (paper \\ "@category").text,
               (paper \\ "authors").text, 
               (paper \\ "title").text, 
               (paper \\ "details").text,
