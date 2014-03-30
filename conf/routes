@@ -11,6 +11,9 @@ GET     /publications				controllers.Application.publications
 # Publications page
 GET     /researchArea/:id			controllers.Application.researchArea(id: Long)
 
+# Technical reports
+GET 	/technicalReports			controllers.Application.technicalReports
+
 # Help page
 GET     /help                       controllers.Application.help
 

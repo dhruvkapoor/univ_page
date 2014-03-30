@@ -1,0 +1,441 @@
+<technical_reports>
+
+	<technical_report>
+	
+		<technical_report_id>TR048</technical_report_id>
+		<authors>Abir Chatterjee and Ali Keyhani</authors>
+		<title>Control of Photovoltaic Generating Station</title>
+		<date>June 2012</date>
+		<pages>41</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/ControlOfPVGeneratingStation.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR047</technical_report_id>
+		<authors>Abir Chatterjee and Ali Keyhani</authors>
+		<title> Estimated Power Output of Photovoltaic Generating Station</title>
+		<date>June 2012</date>
+		<pages>47</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/EstimatedPowerOutputOfPVGeneratingStation.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR046</technical_report_id>
+		<authors>Abir Chatterjee and Ali Keyhani</authors>
+		<title>Thevenin's Equivalent of Photovoltaic Source Models</title>
+		<date>June 2012</date>
+		<pages>20</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/TheveninsEquivalentOfPhotovoltaicSourceModels.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR045</technical_report_id>
+		<authors>Abir Chatterjee and Ali Keyhani</authors>
+		<title>Neural Network Estimation of Microgrid Maximum Solar Power</title>
+		<date>December 2012</date>
+		<page>21</page>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/PVtilt.pdf</report_link>
+	</technical_report>
+	
+	<technical_report>
+	
+		<technical_report_id>TR044</technical_report_id>
+		<authors>Falinirina F. Rakotomananandro and Ali Keyhani</authors>
+		<title>Study of Photovoltaic System</title>
+		<date>May 2012</date>
+		<pages>167</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/PVstudy.pdf</report_link>
+	</technical_report>
+	
+	<technical_report>
+	
+		<technical_report_id>TR043</technical_report_id>
+		<authors>Ali Keyhani and Ahmed El-Abiad</authors>
+		<title>Real Time Modeling Technique for Application to Automatic Generation Control</title>
+		<date>May 1976</date>
+		<pages>9</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/AGCpaper.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+		<technical_report_id>TR042</technical_report_id>
+		<authors>Ahmed El-Abiad and Ali Keyhani</authors>
+		<title>Optimal Automatic Generation Control of Thermal Units of a Power System</title>
+		<date>1975</date>
+		<pages>18</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/OptimalAGC.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR041</technical_report_id>
+		<authors>Dhruv Kapoor, Ali Keyhani and Abir Chatterjee</authors>
+		<title>Identification of PV Source Models</title>
+		<date>August 2012</date>
+		<pages>24</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/PVModeling.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR040</technical_report_id>
+		<authors>Sachin Puranik and A. Keyhani</authors>
+		<title>Dynamic Modeling of Proton Exchange Membrane Fuel Cell</title>
+		<date>Sept 2007</date>
+		<pages>97</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/state_space_technical_report.pdf</report_link>
+	</technical_report>
+	
+	<technical_report>
+
+		<technical_report_id>TR039</technical_report_id>
+		<authors>Min Dai and A. Keyhani</authors>
+		<title>Control of Power Converters for Distributed Generation Applications</title>
+		<date>August 2005</date>
+		<date>231</date>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/TechnicalReportMin_Dai.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR038</technical_report_id>
+		<authors>Wenzhe Lu and A. Keyhani</authors>
+		<title>Modeling and Control of Switched Reluctance Machines for Electro-Mechanical Brake Systems</title>
+		<date>August 2005</date>
+		<pages>184</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/TechnicalReportLu.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR037</technical_report_id>
+		<authors>Jin-Woo Jung and A. Keyhani</authors>
+		<title>Modeling and Control of Fuel Cell Based Distributed Generation Systems</title>
+		<date>May 2005</date>
+		<pages>222</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/Jung_Technical_Report.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR036</technical_report_id>
+		<authors>M. N. Marwali, and A. Keyhani</authors>
+		<title>Design and Implementation of Experimental Testbed for 5kVA Uninterruptible Power Supply</title>
+		<date>Nov 2004</date>
+		<pages>203</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/TestBedTechReport.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR035</technical_report_id>
+		<authors>J. W. Jung, and A. Keyhani</authors>
+		<title>Modeling and Control of Z-Source Converter for Fuel Cell Systems</title>
+		<date>May 2004</date>
+		<pages>37</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/ZSource.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+		<technical_report_id>TR034</technical_report_id>
+		<authors>M. N. Marwali, J. W. Jung, and A. Keyhani</authors>
+		<title>Parallel Operation of Distributed Generation Systems</title>
+		<date>August 2002</date>
+		<pages>43</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/Distributed Generation System.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR033</technical_report_id>
+		<authors>W. Lu, and A. Keyhani</authors>
+		<title>Modeling and Parameter Identification of Switched Reluctance Motors</title>
+		<date>March 2002</date>
+		<pages>53</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/WLModelingandParameterIdentificationofSRM.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR032</technical_report_id>
+		<authors>A. Keyhani and M. Dai</authors>
+		<title>Digital Signal Processing Control of Electric Machines and Drives Laboratory</title>
+		<date>March 2002</date>
+		<pages>316</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/DSPControlLabReport.pdf</report_link>
+	</technical_report>
+	
+	<technical_report>
+
+		<technical_report_id>TR031</technical_report_id>
+		<authors>P. R. Gemin and A. Keyhani</authors>
+		<title>Sizing of Switched Reluctance Machines for Automotive Applications</title>
+		<date>March 2002</date>
+		<pages>75</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/GeminTechnical.pdf</report_link>
+	</technical_report>
+
+
+
+	<technical_report>
+
+		<technical_report_id>TR030</technical_report_id>
+		<authors>M. Dai and A. Keyhani</authors>
+		<title>Total Harmonic Distortion and Overload Current Control for Uninterruptible Power Supply Systems</title>
+		<date>Jul 2001</date>
+		<pages>38</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/MinReport073101.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR029</technical_report_id>
+		<authors>B.J. Farahani and A. Keyhani</authors>
+		<title>Thermal Analysis of an IGBT Voltage-Fed Inverter Using Electrothermal Modeling</title>
+		<date>April 2001</date>
+		<pages>18</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/BaharThermalModeling.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR027</technical_report_id>
+		<authors>A.B. Proca and A. Keyhani</authors>
+		<title>Induction Motor Control for Hybrid Electric Vehicle Applications</title>
+		<date>May 2001</date>
+		<pages>262</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/technical_report_IM_control.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR026</technical_report_id>
+		<authors>A.B. Proca and A. Keyhani</authors>
+		<title>Sliding mode flux observer with online rotor parameter estimation for induction motors</title>
+		<date>April 2001</date>
+		<pages>34</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/bogdan_report_rr_observer.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR025</technical_report_id>
+		<authors>A.B. Proca and A. Keyhani</authors>
+		<title>Intelligent Control of Induction Motors at Low Speed</title>
+		<date>Nov 2000</date>
+		<pages>61</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/inteligent control for low speed.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR024</technical_report_id>
+		<authors>M. C. Bringman and A. Keyhani</authors>
+		<title>Finite Element Modeling of an 8/6 Switched Reluctance Machine for an Electromechanical Brake System</title>
+		<date>May 2001</date>
+		<pages>87</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/Technical.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR023</technical_report_id>
+		<authors>W. Lu and A. Keyhani</authors>
+		<title>Model Identification and Validation of Switched Reluctance Machines from Test Data</title>
+		<date>Jun 2000</date>
+		<pages>23</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/WLModelIdentification.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+													
+		<technical_report_id>TR022</technical_report_id>
+		<authors>A. Keyhani, W. Lu, and M. Dai</authors>
+		<title>Parameter Identification of SRM from Standstill Test / Sensorless Control of SRM using Sliding Mode Observers</title>
+		<date>Oct 2000</date>
+		<pages>40</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/WLIdentificationObserver.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR021</technical_report_id>
+		<authors>W. Lu and A. Keyhani</authors>
+		<title>Four Quadrant Torque Control and Torque Ripple Minimization of Switched Reluctance Motors</title>
+		<date>May 2000</date>
+		<pages>14</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/WLTorqueControl.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR020</technical_report_id>
+		<authors>G. Mahalingam and A. Keyhani</authors>
+		<title>Design of 42V/3000W Permanant Magnet Synchrounous Generator</title>
+		<date>Nov 2000</date>
+		<pages>163</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/Design of PMSG.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR019</technical_report_id>
+		<authors>G.D. Athalye and A. Keyhani</authors>
+		<title>Control of Permanent Magnet Machine using TI-TMS320F240</title>
+		<date>Jun 2000</date>
+		<pages>119</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/Geeta_Technical_Report.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR018</technical_report_id>
+		<authors>G.D. Athalye and A. Keyhani</authors>
+		<title>Modeling and Control of PWM Blower Motor in HVAC Systems</title>
+		<date>Jun 2000</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR017</technical_report_id>
+		<authors>L.E. Higuera Munoz and A. Keyhani</authors>
+		<title>Object Oriented Design of Permanent Magnet Motors</title>
+		<date>May 2000</date>
+		<pages>122</pages>
+		<report_link></report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR016</technical_report_id>
+		<authors>M. Comanescu and A. Keyhani</authors>
+		<title>Design of PM motors</title>
+		<date>Jun 2000</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+	
+	<technical_report>
+													
+		<technical_report_id>TR015</technical_report_id>
+		<authors>A.B. Proca and A. Keyhani</authors>
+		<title>Sliding Mode Sensorless Control of Induction Motor Using Variable Frequency Models</title>
+		<date>August 2000</date>
+		<pages>24</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/bogdan_sensorless_control.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR014</technical_report_id>
+		<authors>A.B. Proca and A. Keyhani</authors>
+		<title>Discrete Time Sliding Mode and Continuous Time Sliding Mode Control of Induction Motors</title>
+		<date>Feb 2000</date>
+		<pages>36</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/Bogdan_Technical_report_sliding2.pdf</report_link>																
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR013</technical_report_id>
+		<authors>H. Karayaka and A. Keyhani</authors>
+		<title>Recursive Maximum Likelihood Estimation and Output Error Estimation Techniques from Noise Corrupted Data</title>
+		<date>March 2000</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR012</technical_report_id>
+		<authors>H. Bora Karayaka and A. Keyhani</authors>
+		<title>Identification of Stability Parameters of Large Utility Generators</title>
+		<date>Dec 1999</date>
+		<pages>65</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/TechnicalReport2.pdf</report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR011</technical_report_id>
+		<authors>H. Bora Karayaka and A. Keyhani</authors>
+		<title>On-line Tracking and Incipient Failure Detection of Stability Parameters of Large Utility Generators</title>
+		<date>March 1999</date>
+		<pages>62</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/apsakmarch99.pdf</report_link>
+	</technical_report>
+													
+	<technical_report>
+
+		<technical_report_id>TR010</technical_report_id>
+		<authors>M. Konghirun, A. Keyhani, and T. Sebastian</authors>
+		<title>The Optimal Design of Permanet Magnet Synchronous Generator</title>
+		<date>April 1998</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+	
+	<technical_report>
+		<technical_report_id>TR009</technical_report_id>
+		<authors>A. Kian, and A. Keyhani, D. Kasten</authors>
+		<title>Design of a 100 KHz Inductor with Finite Element Method</title>
+		<date>1998</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR008</technical_report_id>
+		<authors>S. Pillutla, and A. Keyhani</authors>
+		<title>Neural Network based Modeling of Synchronous Machines from On-Line Operating Data</title>
+		<date>1998</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR007</technical_report_id>
+		<authors>S. Weisgerber, and A. Keyhani</authors>
+		<title>Design and Parameter Estimation of Brushless Permanent Magnet Motors for use in an Electric Power Steering Systems</title>
+		<date>1997</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+
+	<technical_report>
+
+		<technical_report_id>TR006</technical_report_id>
+		<authors>M. Marwali, and A. Keyhani</authors>														
+		<title>An Integrated Digital Signal Processor Based System for Speed Sensorless Vector Control of Induction Machines</title>
+		<date>1997</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR005</technical_report_id>
+		<authors>A.B. Proca, and A. Keyhani</authors>
+		<title>Return to Center Control for Power Steering Systems</title>
+		<date>1997</date>
+		<pages></pages>
+		<report_link></report_link>
+	</technical_report>
+
+	<technical_report>
+	
+		<technical_report_id>TR004</technical_report_id>
+		<authors>C. Studer, and A. Keyhani</authors>
+		<title>Study of Cogging Torque in Permanent Magnet Machines</title>
+		<date>1998</date>
+		<pages>18</pages>
+		<report_link>http://www2.ece.ohio-state.edu/ems/TechReportProtected/Study of Cogging Torque in Permanent Magnet Machines.pdf</report_link>
+	</technical_report>
+</technical_reports>

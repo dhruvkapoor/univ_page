@@ -2,7 +2,7 @@ package util.db.loader
 
 import util.db.Driver.simple._
 import util.db.DatabaseInteraction.dbSession
-import models.{Books, Papers, ResearchAreas, ResearchAreaDetails, Migrations}
+import models.{Books, Papers, ResearchAreas, ResearchAreaDetails, TechnicalReports, Migrations}
 
 import scala.slick.jdbc.meta.MTable
 
@@ -22,6 +22,7 @@ object CreateTables {
         "books" -> TableQuery[Books],
         "research_areas" -> TableQuery[ResearchAreas],
         "research_area_details" -> TableQuery[ResearchAreaDetails],
+        "technical_reports" -> TableQuery[TechnicalReports],
         "migrations" -> TableQuery[Migrations]
       )
       

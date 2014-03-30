@@ -1,0 +1,30 @@
+@(technicalReports: List[TechnicalReport])
+
+<!DOCTYPE HTML>
+
+<html>
+
+	<body>
+	
+		<table>
+			@for(technicalReport <- technicalReports) {
+				<tr>
+					<td>@technicalReport.technicalReportId</td>
+					<td>@technicalReport.authors</td>
+					<td>@technicalReport.title</td>
+					<td>@technicalReport.date</td>
+					<td>
+						@if(technicalReport.pages > 0) {
+							@technicalReport.pages
+						}
+					</td>
+					<td>
+						@if(technicalReport.reportLink.length > 0) {
+							<a href="@technicalReport.reportLink">PDF</a>
+						}
+					</td>
+				</tr>
+			}
+		</table>
+	</body>
+</html>

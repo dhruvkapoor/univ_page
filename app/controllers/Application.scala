@@ -6,13 +6,14 @@ import play.api.mvc._
 import play.api.mvc.Result
 import play.api.libs.ws._
 
-import models.{Books, Paper, Papers, ResearchAreas, ResearchAreaDetails}
+import models.{Books, Paper, Papers, ResearchAreas, ResearchAreaDetails, TechnicalReports}
 
 import util.db.Driver.simple._
 import util.db.DatabaseInteraction.dbSession
 import util.Configurations
 
 import scala.xml.XML._
+import scala.collection.immutable.List
 import scala.collection.mutable.StringBuilder
 
 object Application extends Controller {
@@ -39,7 +40,14 @@ object Application extends Controller {
       Ok(views.html.researchArea(researchArea)(researchAreaDetails))
     }
   }
-
+  
+  def technicalReports = Action {
+    dbSession withSession { implicit session =>
+      val technicalRepors = TableQuery[TechnicalReports].list
+      Ok(views.html.technicalReports(technicalRepors))
+    }
+  }
+  
   def help = Action {
     Ok(views.html.help("Play API"))
   }

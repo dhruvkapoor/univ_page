@@ -7,7 +7,7 @@ import play.api.Play.current
 import util.db.Driver.simple._
 import util.db.DatabaseInteraction.dbSession
 import models.{Migration, Migrations}
-import models.{Book, Books, Paper, Papers, ResearchArea, ResearchAreas, ResearchAreaDetail, ResearchAreaDetails}
+import models.{Book, Books, Paper, Papers, ResearchArea, ResearchAreas, ResearchAreaDetail, ResearchAreaDetails, TechnicalReport, TechnicalReports}
 
 import scala.xml.XML._
 import scala.collection.mutable.ListBuffer
@@ -39,6 +39,9 @@ object MigrateData {
       
       // Migrate research areas
       MigrateData migrateResearchAreas
+      
+      // Migrate technical reports
+      MigrateData migrateTechnicalReports
     }
   }
       
@@ -140,6 +143,45 @@ object MigrateData {
         
         // Mark migration as completed
         this setMigrationFinished researchAreaMigration
+      }
+    }
+  }
+  
+  def migrateTechnicalReports {
+    
+    dbSession withSession { implicit session =>
+      val technicalReportMigration = this getMigration "TECHNICAL_REPORTS"
+      if (technicalReportMigration hasFinished)
+        // Return if migration has already completed
+        return
+        
+      // Migrate technical reports if the migration hasn't happened yet
+      session.withTransaction {
+        
+        // Open up the technical reports xml
+        val file = Play.getFile("/migrations/technical_reports.xml")
+        val technicalReportsXml = loadFile(file)
+    
+        // Parse into rows of the technical reports table
+        val technicalReports = TableQuery[TechnicalReports]
+        (technicalReportsXml \\ "technical_report") map { technicalReport =>
+          val pages: Int = ((technicalReport \\ "pages").text) match {
+            case valid if valid.length > 0 => new Integer(valid)
+            case invalid => 0
+          }
+
+          technicalReports insert TechnicalReport(
+              (technicalReport \\ "technical_report_id").text, 
+              (technicalReport \\ "authors").text,
+              (technicalReport \\ "title").text,
+              (technicalReport \\ "date").text,
+              pages,
+              (technicalReport \\ "report_link").text
+          )
+        }
+        
+        // Mark migration as completed
+        this setMigrationFinished technicalReportMigration
       }
     }
   }
