@@ -1,0 +1,6 @@
+The simulation package SABER<P><FONT SIZE=3>&nbsp;<B><I>ABSTRACT</I></B>:The simulation package SABER
+has been employed for model development. The motor is a DC motor. The motor
+is modeled using the Permanent Magnet Machine available in Saber. This
+symbol is a permanent magnet DC machine that may act as either a motor
+or generator depending on how it is connected. The various motor parameters
+are specified depending on the experimental results obtained.</FONT>

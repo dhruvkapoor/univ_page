@@ -1,0 +1,16 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+This paper presents a real time stochastic technique for modeling the load demand of a power system. The modeling core approach discussed here is recursive and needs nominal core storage and computation time. The developed model is used for forecasting one-step-ahead demand of the system. Such forecasts are useful for real time control of generation and spinning reserve assessment. <br>
+In addition, a comparison is made between the current industry load modeling practice and the model development by the technique discussed here. This comparison is made through the real time load data of a utility company by using both methods.<br>
+   <P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

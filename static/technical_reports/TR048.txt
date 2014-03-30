@@ -1,0 +1,17 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+The energy that is received by the photovoltaic (PV) arrays needs to be effectively extracted from them through proper control. For maximum efficiency, it is desired that the maximum power that is available from the PV is extracted. PV arrays generate DC voltage that is a function of irradiance, temperature and the current supplied. Under these conditions, the PV voltage is not suitable for all loads. Therefore, power converters are used to convert this DC voltage into a magnitude and frequency that is suitable for a given load. 
+<br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The power converters are also used to extract maximum power available from the PV array by operating the PV at maximum power point. In this report, maximum power point tracking of a PV station with and without boost converter is presented.  
+ <br>
+   <P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,4 @@
+<P><FONT SIZE=3>A
+
+methodology to Investigate and develop a set of robust estimation procedures to identify and track the stability parameters of a large utility generator from on-line measurements is presented. The proposed work include: 1. Identification of Armature and Saturated Machine Parameters from Operating Data; 2. Identification of Rotor Body Machine Parameters from Operating Data; 3. On-line Parameter Tracking for Incipient Failure Detection. Preliminary Results Obtained for Methodology Development are given and future work plan is described.</FONT>
+

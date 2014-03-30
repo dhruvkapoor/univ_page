@@ -1,0 +1,41 @@
+<P>&nbsp;<A NAME="_Toc394895185"></A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+This report presents circuit models and control algorithms of fuel cell based
+distributed generation systems (DGS) for two DGS topologies. In the first topology, each
+DGS unit utilizes a battery in parallel to the fuel cell in a standalone AC power plant and
+a grid-interconnection. In the second topology, a Z-source converter, which employs both
+the L and C passive components and shoot-through zero vectors instead of the
+conventional DC/DC boost power converter in order to step up the DC-link voltage, is
+adopted for a standalone AC power supply.<br>
+In Topology 1, two applications are studied: a standalone power generation
+(Single DGS Unit and Two DGS Units) and a grid-interconnection. First, dynamic model
+of the fuel cell is given based on electrochemical process. Second, two full-bridge DC to
+DC converters are adopted and their controllers are designed: an unidirectional fullbridge
+DC to DC boost converter for the fuel cell and a bidirectional full-bridge DC to
+DC buck/boost converter for the battery. Third, for a three-phase DC to AC inverter
+without or with a delta/Y transformer, a discrete-time state space circuit model is given and
+two discrete-time feedback controllers are designed: voltage controller in the outer loop
+and current controller in the inner loop. And last, for load sharing of two DGS units and
+power flow control of two DGS units or the DGS connected to the grid, real and reactive
+power controllers are proposed. Particularly, for the grid-connected DGS application, a
+synchronization issue between an islanding mode and a paralleling mode to the grid is
+investigated, and two case studies are performed. To demonstrate the proposed circuit
+models and control strategies, simulation test-beds using Matlab/Simulink are constructed
+for each configuration of the fuel cell based DGS with a three-phase AC 120 V (L-N)/60
+Hz/50 kVA and various simulation results are presented.<br>
+In Topology 2, this report presents system modeling, modified space vector PWM
+implementation (MSVPWM) and design of a closed-loop controller of the Z-source
+converter which utilizes L and C components and shoot-through zero vectors for the
+standalone AC power generation. The fuel cell system is modeled by an electrical R-C
+circuit in order to include slow dynamics of the fuel cells and a voltage-current
+characteristic of a cell is also considered. A discrete-time state space model is derived to
+implement digital control and a space vector pulse-width modulation (SVPWM)
+technique is modified to realize the shoot-through zero vectors that boost the DC-link
+voltage. Also, three discrete-time feedback controllers are designed: a discrete-time
+optimal voltage controller, a discrete-time sliding mode current controller, and a discretetime
+PI DC-link voltage controller. Furthermore, an asymptotic observer is used to reduce
+the number of sensors and enhance the reliability of the system. To demonstrate the
+analyzed circuit model and proposed control strategy, various simulation results using
+Matlab/Simulink are presented under both light/heavy loads and linear/nonlinear loads
+for a three-phase AC 208 V (L-L)/60 Hz/10 kVA.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;

@@ -1,0 +1,15 @@
+<B><FONT SIZE=3><I>ABSTRACT:</I> </FONT></B><FONT SIZE=3>Three control
+strategies are implemented and compared in this research: Vector Control,
+Continuous Time Sliding Mode Control and Discrete Time Sliding Mode Control
+of an induction motor. The induction motor model takes into account magnetizing
+inductance saturation and rotor resistance variation. While the magnetizing
+inductance is mapped to the operating conditions, the rotor resistance
+is estimated on-line. The motor is controlled with optimal efficiency flux.
+Flux weakening is employed above rated speed. The controllers are designed
+using simulation results. The simulation environment accounts for parameter
+mismatches. Several tests are performed on the experimental setup, accounting
+for low speed, high speed and rated speed operation. The experiments show
+the advantages and disadvantages of the control methods in respect to dynamic
+response, parameter mismatches, ease of implementation (algorithm complexity
+and tuning), stability of output(chaterring).</FONT>
+<P>&nbsp;

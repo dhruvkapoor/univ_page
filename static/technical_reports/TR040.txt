@@ -1,0 +1,47 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+In today’s modern world, there exists incessant inclination to improve living 
+standards, sophistication and quality of life. Invariably, better living 
+standards and sophistication to ameliorate quality of life can be achieved by 
+expending more energy. As a result, energy consumption around the globe has 
+increased substantially at the beginning of the 21st century. Currently, 
+majority of the energy demand around the world is met by combustion of fossil 
+fuels
+such as coal, oil and natural gas. The combustion of fossil fuels happens 
+through the oxidation of carbon which leads to the generation of carbon dioxide 
+gas (CO_2). CO_2 is one of the important greenhouse gases and a major 
+anthropogenic contributor to the effect of global warming. Thus, combustion of 
+more and more fossil fuels has an unfavorable impact on the environment. 
+Moreover, fossil fuel resources are gradually depleting. A solution to this 
+problem is to use
+alternative environment-friendly power generation methods which will have least 
+or ideally zero emissions. Fuel cell is one such emerging technology which can 
+meet the extraordinary energy needs of the 21st century. It is a clean energy 
+source with low or zero emissions. The various types of fuel cells are 
+well-poised to be used as energy sources in different applications such as 
+combined heat and power systems, mobile power systems, distributed generation 
+systems, mobile telephones, military communications equipments etc. 
+Specifically, Proton Exchange Membrane (PEM) fuel cell is the well-conceived 
+candidate for developing distributed generation power systems and hybrid 
+electric vehicles.<span style="font-size: 12.0pt; font-family: Times New Roman">&nbsp;&nbsp;&nbsp; </span><font size="3">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In 
+this technical report, dynamic modeling of PEM fuel cell is presented. First, 
+various types of fuel cells are described in detail. Their principle of 
+operation, advantages, and disadvantages are discussed. Then, nonlinear state 
+space model of 500-W PEM fuel cell is proposed. The open-circuit output voltage 
+of PEM fuel cell, irreversible voltage losses in PEM fuel cell, effect of 
+formation of double layer charge is modeled. Further, dynamic behavior of PEM 
+fuel cell is analyzed under different loading conditions and transient response 
+of PEM fuel cell during short-time range and long-time range are analyzed.<P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

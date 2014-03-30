@@ -1,0 +1,11 @@
+<P><B><FONT SIZE=+0><I>ABSTRACT:</I> </FONT></B><FONT SIZE=3>A sensorless
+torque control system for induction motors was developed in this research.
+The system allows for fast and precise torque tracking over a wide range
+of speed. Unlike most research in the area, the authors used an induction
+motor model that adapts its parameters to the operating conditions. An
+adaptive sliding mode observer is developed for speed observation and a
+cascade of discrete time sliding mode controllers is used for flux and
+current control. A least-square estimation speed estimation method is used
+at very low speed (below 20 rpm). Simulation and experimental results prove
+the validity of the approach.</FONT>
+<P>&nbsp;

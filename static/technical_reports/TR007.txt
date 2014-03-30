@@ -1,0 +1,16 @@
+&nbsp;&nbsp; </I></B>The advancement of<P><FONT SIZE=3><B><I>ABSTRACT:&nbsp;&nbsp; </I></B>The advancement of
+automobile technology has taken great strides in recent years with the
+popularity of pure-electric vehicles and hybrid-electric vehicles. These
+vehicles are in demand because of consumer and government requirements
+for a cleaner more fuel efficient vehicle. These advancements toward an
+electric and hybrid vehicle marketplace affect many areas of the automobile.
+One area that is affected is the automobile. s power steering system. Conventional
+power steering systems provide assist to the driver of the automobile by
+using hydraulic pressure that is created by a pump that is directly connected
+to the engine. This hydraulic pump is continuously putting a load on the
+engine even when zero steering assist is required. This type of power steering
+system includes parasitic losses that decrease the fuel efficiency of the
+car. Also, in some cases, particularly with a pure electric vehicle there
+is no engine to drive a hydraulic pump. Hence, there is a need for an engine
+independent power steering system. One solution that fits this need is
+the Electric Power Steering (EPS) system.</FONT>

@@ -1,0 +1,17 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+For planning and designing a photovoltaic (PV) generating station, the power available from it must be known. The output of the PV station varies with environmental conditions of temperature and irradiance at a given time. The voltage level of the station is also a function of temperature and irradiance along with the current drawn from the PV array. For operation control, the utility company must know how much power is available from the PV station from power flow studies and scheduling. In this report, the power available from 80 kW PV station as a function of time of day is presented for two locations.
+<br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To obtain power from a PV station, the irradiance and temperature data must be known as a function of time. However, irradiance on a particular day depends on the angle the sun makes with the PV panels, the air mass and the cloud cover. Forecast of irradiance can be made by the meteorologists, which is used for operations control. However, to plan a PV station, long-term forecasts must be made on the available power from the PV station. In this report, method to estimate the power available from PV is presented. For two locations, the performance of the PV station in terms of power/energy output is presented.  
+ <br>
+   <P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

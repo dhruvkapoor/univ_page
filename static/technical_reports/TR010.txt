@@ -1,0 +1,16 @@
+ This technical report describes<P><FONT SIZE=3>&nbsp;<B><I>ABSTRACT</I></B>: This technical report describes
+the optimal design of the 3-phase, 4-pole, 12-slot permanent magnet synchronous
+generator (PMSG) for minimum power losses and minimum machine weight. This
+PMSG will be used in the dual voltage generating system, which is required
+to minimize power losses, weight, and cost. The LaGrange multiplier method
+is mainly employed to solve the inequality constrained optimization problems,
+using MATLAB programs. The optimal machine geometry is finally provided
+basing on the appropriate selected machine parameters, which give lowest
+minimum power losses and minimum machine weight. In addition, electrical
+and magnetic designs, including methodology of general design, winding
+designs, and PMSG modeling are also covered. The equations of load line,
+permeance coefficient, magnet thickness, voltage constant, power losses,
+machine weight, resistance per phase, self inductance per phase, temperature
+rises, maximum output current, and efficiency are analytically derived
+in this thesis.</FONT>
+<P>&nbsp;

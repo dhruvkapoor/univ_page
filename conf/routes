@@ -14,6 +14,9 @@ GET     /researchArea/:id			controllers.Application.researchArea(id: Long)
 # Technical reports
 GET 	/technicalReports			controllers.Application.technicalReports
 
+# Technical report
+GET 	/technicalReport/:id		controllers.Application.technicalReport(id: String)
+
 # Help page
 GET     /help                       controllers.Application.help
 

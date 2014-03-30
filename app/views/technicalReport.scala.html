@@ -1,0 +1,12 @@
+@(technicalReport: TechnicalReport)(technicalReportPage: String)
+
+<!DOCTYPE HTML>
+
+<html>
+
+	<body>
+		<h1>@technicalReport.title</h1>
+		<h2>@technicalReport.authors</h2>
+		@Html(technicalReportPage)
+	</body>
+</html>

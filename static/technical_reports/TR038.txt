@@ -1,0 +1,15 @@
+<P>&nbsp;<A NAME="_Toc394895185"></A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+Modern vehicles have become more and more electrical. Electro-mechanical brake (EMB) systems have been proposed to replace the conventional hydraulic brake systems. Due to the advantages such as fault tolerant operation, robust performance, high efficiency, and reliable position sensorless control, switched reluctance machine (SRM) has been chosen as the servomotor of the EMB systems. This research is focused on the modeling and control of switched reluctance machines for EMB systems. The overall goal is to design a robust clamping force controller without position sensors for the SRM.
+<br><br>
+An accurate model and precisely estimated parameters are critical to the successful implementation of the control system. An inductance based model for switched reluctance machine is proposed for this research. Maximum likelihood estimation techniques are developed to identify the SRM parameters from standstill test and online operating data, which can overcome the effect of noise inherent in the data.
+<br><br>
+Four-quadrant operation of the SRM is necessary for the EMB system. Based on the inductance model of SRM, algorithms for four-quadrant torque control and torque-ripple minimization are developed and implemented.
+<br><br>
+The control objective of the electro-mechanical brake system is to provide desired clamping force response at the brake pads and disk. It is realized by controlling the torque, speed, and rotor position of the SRM. A robust clamping force controller is designed using backstepping. The backstepping design proceeds by considering lower-dimensional subsystems and designing virtual control inputs. The virtual control inputs in the first and second steps are rotor speed and torque, respectively. In the third step, the actual control inputs, phase voltages, appear and can be designed. Simulation results demonstrate the performance and robustness of the controller.
+<br><br>
+Position sensing is an integral part of SRM control. However, sensorless control is desired to reduce system weight and cost, and increase reliability. A sliding mode observer based sensorless controller is developed. Algorithms for sensorless control at near zero speeds and sensorless startup are also proposed and simulated, with satisfactory results.
+<br><br>
+Experimental testbed for the electro-mechanical brake system has been setup in the laboratory. DSP based control system is used for SRM control. The algorithms developed in simulation have been implemented on the testbed, with corresponding results given. Future work is suggested to finalize the implementation of the electro-mechanical brake system.
+</FONT>
+<BR>&nbsp;
+<BR>&nbsp;

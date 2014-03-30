@@ -1,0 +1,48 @@
+<P><FONT SIZE=3>A
+
+methodology to estimate armature circuit and field winding parameters of
+
+a synchronoususing the synthetic
+
+data obtained by the machine natural <I>abc</I> frame of reference simulation
+
+is presented. First, a one-machine infinite bus system including the machine
+
+and its excitation system is simulated in <I>abc</I> frame of reference
+
+by using parameters provided by the machine manufacturer. A proper data
+
+set required for estimation is collected by perturbing the field side of
+
+the machine in small amounts. The recursive maximum likelihood (RML) estimation
+
+technique is employed for the identification of armature circuit parameters.
+
+Subsequently, based on the estimates of armature circuit parameters, the
+
+field winding and some damper parameters are estimated using an Output
+
+Error Estimation (OEM) technique. For each estimation case, the estimation
+
+performance is also validated with noise corrupted measurements.</FONT>
+
+<br>
+
+<FONT SIZE=3>The
+
+study shows that noise corruption problems can be effectively handled with
+
+the RML algorithm for estimation of armature circuit parameters.. For lower
+
+signal to noise ratio(<I>SNR)</I> values, the RML estimates of mutual inductances
+
+and field to stator turns ratio has been estimated. The OEM estimation
+
+results reveal that good estimates of the actual parameters can be obtained
+
+with proper initialization. It is shown that for large
+
+excitation disturbances, the OEM estimation technique can recover the model
+
+parameters with unobservable state from noise corrupted data.</FONT>
+

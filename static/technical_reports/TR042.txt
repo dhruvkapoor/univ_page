@@ -1,0 +1,19 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+Under the current constant pressure operation of the thermal units of a power system, high frequency and low frequency fluctuations in the load demands are controlled through the primary controller. That is, the load demands of a power system are sampled every few seconds and the primary controller manipulates the turbine valves of the regulating units in response to the changing loads, while the supplementary controller controls the firing rate in order to maintain the desired constant throttle pressure. <br>
+For the purpose of economic operation, the system load demands are also sampled every few minutes (5-10 minutes). A given MW is allocated to each unit in accordance with the economic participation factors, while the load demands are assumed to remain constant during the sampling intervals. That is, the trend of changing load is completely ignored. <br>
+In this paper, a method is proposed for optimal automatic generation control for which the trend of changing load is taken into account by means of stochastic load modeling. <br>
+In addition, the optimal dynamic generation control of a power boiler operating in a variable pressure is mode is investigated. This type of operation is of special interest today, since several power companies have installed drum-type, fossil-fueled steam generators to supple the present and future daily cycling load demands. The proposed variable pressure operation reduces the thermally generated stress levels in the cycling units. <br>
+The optimal control problem formulation places bounds on state variables, input variables, and allowable rated of change of state variables for reasons of boiler safety.
+   <P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

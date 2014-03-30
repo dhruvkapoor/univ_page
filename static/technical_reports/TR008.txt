@@ -1,0 +1,7 @@
+&nbsp; </I></B>A comprehensive system identification<P><FONT SIZE=3><B><I>ABSTRACT:&nbsp; </I></B>A comprehensive system identification
+procedure is developed to estimate and track the stability parameters of
+a synchronous generator from time-domain on-line response data. In order
+to accurately estimate the parameters of the machine model at various test
+and operating conditions, a multistage identification procedure is proposed.
+This procedure is verified experimentally by performing both small- and
+large-disturbance tests on a 7.5 kVA, 220 V, 1800 rpm synchronous generator.</FONT>

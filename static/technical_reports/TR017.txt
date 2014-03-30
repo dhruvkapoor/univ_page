@@ -1,0 +1,6 @@
+ The growing demand for motors<P><FONT SIZE=3>&nbsp;<B><I>ABSTRACT</I></B>: The growing demand for motors
+that are smaller, more powerful, more efficient, and more reliable has
+led to improvisation in machine design techniques. Today, a considerable
+amount of research is being done in the field of Permanent Magnet Machine
+design. Therefore, tools for development and validation of the machine
+design are highly important.</FONT>

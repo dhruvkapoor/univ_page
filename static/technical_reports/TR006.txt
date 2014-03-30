@@ -1,0 +1,14 @@
+&nbsp;<P><FONT SIZE=3><B><I><FONT FACE="Arial">ABSTRACT:&nbsp;
+</FONT></I></B>This technical report describes the design and implementation
+of an experimental system that can be used for the development and evaluation
+of speed sensorless vector control of an induction machine. The system
+is based on a single board controller which combines the computing power
+of a Texas Instrument 32-bit floating point TMS320C31 DSP with the peripherals
+needed to implement the vector control drive. Two sensorless vector control
+techniques have been chosen to be evaluated on the experimental system.
+The techniques are based on the rotor-flux based Model Reference Adaptive
+System (MRAS) and the back-emf based MRAS speed estimators. Practical issues
+related with the implementation of these two MRAS speed estimators have
+been investigated both in simulation and experimental environments, and
+the results are presented in this thesis.</FONT>
+<P>&nbsp;

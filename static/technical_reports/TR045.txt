@@ -1,0 +1,18 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+The integration of photovoltaic (PV) generating stations in the power grids requires the amount of power available from the PV to be estimated for power systems planning on yearly basis and operation control on daily basis. This paper proposes a neural network (NN) to estimate the optimal tilt angle at a given location and thus an estimate of the amount of energy available from the PV stations.
+<br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To utilize maximum solar   energy from the sun, optimum tilt angle of PV panels must be estimated. The tilt angle can be adjusted by using costly hardware based servo systems. To avoid cost and complexity of servo system, the PV panels should be installed at optimum tilt angle which needs be adjusted during the year.
+<br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The energy received from the sun at a particular location depends on factors like the latitude of the location, the time of the year, the weather (clarity of the atmosphere) and the ground reflectivity. The irradiation which is the measure of amount of solar energy reaching a particular surface of unit area also depends on the angle at which the radiation is incident on the surface. Therefore, the angle which the PV panels make with the horizontal earth’s surface is a major deciding factor. By varying this angle over time, maximum amount of solar energy can be tapped. For optimum solar energy generation, the tilt angle must be adjusted to its optimal value during the year. To estimate the optimal tilt angle, the geographical and meteorological data from the location must be known.
+ <br>
+   <P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,21 @@
+<P>&nbsp;<A NAME="_Toc394895185"></A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+Proper heat sink design is a critical issue in new technology. Developments
+in power electronics have resulted to power devices with high current capabilities,
+which in turn dissipate considerable heat. If the dissipated heat is not
+removed effectively from the power devices, it will make degradation in
+the electrical quality of the device or even cause to thermal failure of
+the device; thus, simulating the thermal model of the system becomes very
+importance regarding the reliability issues.</FONT>
+<BR><FONT SIZE=3>The aim of this project is to simulate the electrothermal
+model of a 3Ph IGBT power inverter, including the thermal and electrical
+model of the DC voltage source, the inverter bridge and the load, and check
+if the designed heat sink can operate properly even in the case of a fault
+and the device would not encounter a thermal failure in expected conditions.
+Simulation of the electrothermal model gives the thermal distribution in
+different points inside the chip, the package and the heat sink. It is
+also possible to see the effect of varying the heat sink parameters on
+the thermal distribution inside the chip. Another interesting feature of
+electrothermal simulation is that the temperature waveforms can be obtained
+for different load conditions.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;

@@ -1,0 +1,14 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+Smart Grids are one of the solutions proposed to handle today’s increasing energy demands in a reliable, efficient, and clean fashion. Smart Grids often utilize a number of sources that are not a part of the main utility supply to either augment the supply, or to feed power back to the mains. This report attempts to develop a system for modeling of a solar cell array that would likely function as a part of an entire smart grid installation. The objective is to develop in thorough detail a method to find the parameters of the single-exponential model using only values provided in the data sheet of the panel. The report expounds step by step modeling procedure with clarity and in greater mathematical detail, and provides a thorough and intensive set of algorithms to successfully solve the equations developed herein.<P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

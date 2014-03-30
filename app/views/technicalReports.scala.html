@@ -7,11 +7,12 @@
 	<body>
 	
 		<table>
-			@for(technicalReport <- technicalReports) {
+			@for((technicalReport, index) <- technicalReports.zipWithIndex) {
 				<tr>
+					<td>@{index+1}</td>
 					<td>@technicalReport.technicalReportId</td>
 					<td>@technicalReport.authors</td>
-					<td>@technicalReport.title</td>
+					<td><a href="@routes.Application.technicalReport(technicalReport.technicalReportId)">@technicalReport.title</a></td>
 					<td>@technicalReport.date</td>
 					<td>
 						@if(technicalReport.pages > 0) {

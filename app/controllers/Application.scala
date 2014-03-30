@@ -16,6 +16,10 @@ import scala.xml.XML._
 import scala.collection.immutable.List
 import scala.collection.mutable.StringBuilder
 
+import java.io.File
+import com.google.common.base.Charsets
+import com.google.common.io.Files
+
 object Application extends Controller {
   
   def index = Action {
@@ -34,7 +38,7 @@ object Application extends Controller {
   }
   
   def researchArea(id: Long) = Action {
-    dbSession withSession { implicit sesion =>
+    dbSession withSession { implicit session =>
       val researchArea = TableQuery[ResearchAreas].filter(_.id === id).list.head
       val researchAreaDetails = TableQuery[ResearchAreaDetails].filter(_.researchAreaId === id).list
       Ok(views.html.researchArea(researchArea)(researchAreaDetails))
@@ -45,6 +49,14 @@ object Application extends Controller {
     dbSession withSession { implicit session =>
       val technicalRepors = TableQuery[TechnicalReports].list
       Ok(views.html.technicalReports(technicalRepors))
+    }
+  }
+  
+  def technicalReport(id: String) = Action {
+    dbSession withSession { implicit session =>
+      val technicalReport = TableQuery[TechnicalReports].filter(_.technicalReportId === id).list.head
+      val technicalReportPage = Files.toString(new File("static/technical_reports/" + id + ".txt"), Charsets.UTF_8)
+      Ok(views.html.technicalReport(technicalReport)(technicalReportPage))
     }
   }
   

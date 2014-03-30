@@ -1,0 +1,14 @@
+<P>&nbsp;<A NAME="_Toc394895185"></A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+This research is a part of the EMB (Electro-Mechanical Brake) project. The goal of the project is to develop and implement a low-cost sensorless SRM (Switched Reluctance Motor) drive system.
+The phase inductance <I>L</I> of an SRM changes with rotor position <I>theta</I> and phase current <I>i</I>. Obtaining an accurate model of the phase inductance is the key issue for switched reluctance motor modeling.
+For the inductance-based SRM model, the nonlinear inductance <I>L(theta, i)</I> can be approximated by using three quantities <I>La</I>, <I>Lm</I>, and <I>Lu</I>, which denote the inductance at aligned position, unaligned position and a midway between the two. To measure the inductances at these three particular rotor positions, the rotor is blocked at these three positions precisely and a voltage pulse is applied to the phase winding. The measured voltage and current are used to identify the winding parameters using output error and/or maximum likelihood estimation.
+</FONT>
+<BR>&nbsp;
+<BR>&nbsp;
+<P><B>2. Sensorless Control of Switched Reluctance Motors using Sliding Mode Observers</B>
+<P>&nbsp;<A NAME="_Toc394895185"></A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+Rotor position sensing is an integral part of SRM control system due to the torque-production principle of the SRM. Conventionally, a shaft position sensor is employed to detect rotor position. But this means additional cost, more space requirement and an inherent source of unreliability. A sensorless (without direct position sensors) control system, which extracts rotor position information indirectly from electrical or other signals, is expected.
+A large amount of sensorless control techniques have been published in the last decade. All these methods have their own advantages and disadvantages. Ideally, it is desirable to have a sensorless scheme, which uses only operating data measured from motor terminals while maintaining a reliable operation over the entire speed and torque range with high resolution and accuracy. Sliding mode observer, with its advantages of inherent robustness of parameters uncertainty, computational simplicity, and high stability, provides a way to implement such &#8216;ideal&#8217; sensorless schemes.
+</FONT>
+<BR>&nbsp;
+<BR>&nbsp;

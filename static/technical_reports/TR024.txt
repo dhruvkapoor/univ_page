@@ -1,0 +1,11 @@
+<P>&nbsp;<A NAME="_Toc394895185"></A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+The modern car will soon feature many electromechanical devices on it that will improve the safety, performance and fuel economy for the modern driver.  One such device is the electromechanical brake system.  Delphi Automotive has designed an electromechanical brake system that uses an 8/6 switched reluctance motor to drive the system.  This thesis will concentrate on modeling of the switched reluctance motor that was designed.  
+<P>
+First an introduction to and the basic operation of the switched reluctance motor will be explained.  The equations that model the voltage, current, torque and speed of the switched reluctance machine will then be derived as functions of the parameters of the machine.  The inductance of the machine changes as a function of position and current.  The inductance of the motor is periodic with respect to theta so a model will use a Fourier Series to calculate the inductance as a function of theta.  After the models and operation of the switched reluctance motor has been explained, the next section will explain the finite element analysis of the machine.  
+<P>
+The dimensions of the machine were entered into a computer model and a finite element analysis was performed.  Flux2D was used to create two computer models of the motor from the drawings used to build the actual motor.  Two models were created with different airgaps to reflect the tolerances that were given on the drawings.  Then the motor was rotated through an electrical cycle for different current level and the inductance was calculated for every degree of rotation.  The inductance was then used to calculate the flux linkage in the motor and the results were graphed.
+<P>
+The resulting flux linkages were then graphed with some estimated values that were obtained from an actual motor.  These estimated values were used to validate the results that were obtained from the computer simulation.  Then the data was compared and differences have been analyzed.  The result of this thesis shows that the flux linkage values for both of the methods were very close to each other, but the differences will be examined and explained.
+</FONT>
+<BR>&nbsp;
+<BR>&nbsp;

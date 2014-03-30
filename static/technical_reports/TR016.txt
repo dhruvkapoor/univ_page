@@ -1,0 +1,55 @@
+ The present automotive electrical<P><FONT SIZE=3>&nbsp;<B><I>ABSTRACT</I></B>: The present automotive electrical
+power system has been in use for more than three decades and has so far
+satisfactorily met the requirements of the vehicle electrical loads.</FONT>
+<BR><FONT SIZE=3>&nbsp;The requirements of increased electrical power,
+improved fuel economy and reduced emissions have imposed the necessity
+of developing more efficient power systems for the future applications.</FONT>
+<BR><FONT SIZE=3>&nbsp;The actual trend in automotive design is to transform
+classic mechanical and hydraulic systems into electric systems. Examples
+of&nbsp; such new loads are: electric water pumps, electric air conditioners,
+electric and electrohydraulic power steering systems, electric brakes.&nbsp;
+These new systems will provide better performance and customer satisfaction
+but they come with the penalty of increased demand of electrical power.</FONT>
+<BR><FONT SIZE=3>Today's typical luxury class vehicle draws 1,200 to 1,500
+W of steady state power from the electrical system and has about 2.5 Km
+of wire. It is estimated that the power demand in the year 2005 will be
+about 3,000 W for this type of car , and about 7,000 W&nbsp; for a hybrid
+electric vehicle. At this level of power demand, the actual electric system
+based on the 12V bus voltage becomes inefficient.&nbsp; The wiring harnesses
+must be thicker therefore conductor size is increased .For this new level
+of power, a new voltage standard is needed in order to enable an efficient
+operation of the system.</FONT>
+<BR><FONT SIZE=3>&nbsp;The present automotive electrical power system
+has been in use for more than three decades and has so far satisfactorily
+met the requirements of the vehicle electrical loads. This is based on
+the claw pole synchronous alternator , also known as the Lundell machine.
+The requirements of increased electrical power, improved fuel economy and
+reduced emissions have imposed the necessity of developing more efficient
+power systems for the automotive applications.</FONT>
+<BR><FONT SIZE=3>The permanent magnet machine is one of the main candidates
+to be used as an alternator in the electric system of an automobile , mainly
+due its high power density and increased reliability.</FONT>
+<BR><FONT SIZE=3>This report presents a new method of design for a permanent
+magnet three phase synchronous generator. The design method takes into
+account the topology of the converter that will be used in the electric
+system in the automobile. The converter must be able to deliver 42V at
+the DC load end for a speed range at the generator shaft of 1,800 to 18,000
+rpm. The power factor seen by the AC line and the active power supplied
+by the PM machine are evaluated and will be used as entry data of the design
+algorithm.</FONT>
+<BR><FONT SIZE=3>The phase rms voltage of the machine is established so
+that the load voltage (42V) is obtained at any speed within the range.
+The phase rms current is computed based on the equation of the active power
+supplied by the machine. The base speed is chosen based on the converter
+topology adopted.</FONT>
+<BR><FONT SIZE=3>The input data of the algorithm is: apparent power of
+the machine, power factor, rms phase voltage and current, base speed, number
+of pole pairs of the machine, magnet characteristics B-H for any temperature,
+recoil permeability, magnet&#8217;s maximum operating temperature, iron saturation
+flux density, maximum temperature allowable for conductor insulation, maximum
+current density of the conductors used, slot filling factor, lamination
+stacking factor, conductor&#8217;s resistively and temperature coefficient, air
+gap length, power and current waveform factors, thermal conductances and
+conductivities of the materials used, iron and magnet mass densities, skew
+angle of the stator, short pitching angle of the coils in the windings,
+rotor diameter, number of stator slots per pole per phase.</FONT>

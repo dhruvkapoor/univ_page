@@ -1,0 +1,21 @@
+<P>&nbsp;<A NAME="_Toc394895185"></A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+Field orientation techniques
+without flux measurements depend on the parameters of the motor, particularly
+on the rotor resistance or rotor time constant. Since these parameters
+change continuously as a function of temperature it is important the value
+of rotor resistance be continuously estimated online. A fourth order sliding
+mode flux observer is developed in this research. The observer does not
+depend on the values of the rotor resistance or rotor time constant.<br><br>
+Two sliding surfaces representing combinations of estimated flux and current errors are used to enforce the flux and current estimates to their real values. Employing the use of Lyapunov
+functions, the authors prove that the sliding surfaces can be forced to
+zero in finite time by using to switching functions. The equivalent values
+of the switching functions (low frequency components) are proven to be
+the rotor resistance and the inverse of the rotor time constant. This later
+property is used to simultaneously estimate the rotor resistance and inverse
+of the time constant without prior knowledge of either the rotor resistance
+or the magnetizing inductance. Furthermore, since the algorithm is quite
+robust to the variation of leakage inductance, the only offline (or self
+commissioned) estimation needed is for the stator resistance.
+</FONT>
+<BR>&nbsp;
+<BR>&nbsp;

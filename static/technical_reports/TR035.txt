@@ -1,0 +1,4 @@
+<P>&nbsp;<A NAME="_Toc394895185"></A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+This report presents a detailed circuit analysis and PWM implementation of a fuel cell based Z-source converter using L and C components. The fuel cell system is modeled by an electrical R-C circuit in order to include a slow dynamics of the fuel cells and a voltage-current characteristic of a cell is also considered. A discrete-time state space model of the Z-source converter is given for DSP implementation. A modified space vector pulse width modulation is described in detail. To verify the effectiveness of the analyzed circuit model and modified space vector PWM technique, various simulation results using Matlab/Simulink are presented under a closed-loop control and Matlab/Simulink models are attached in Appendix. Also, all Matlab/Simulink codes are given.</FONT>
+<BR>&nbsp;
+<BR>&nbsp;

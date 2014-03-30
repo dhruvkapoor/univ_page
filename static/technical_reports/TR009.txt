@@ -1,0 +1,5 @@
+</I></B> In this technical report, a minimum<P><FONT SIZE=3><B><I>ABSTRACT:</I></B> In this technical report, a minimum
+loss design of a 100 kHz inductor with litz wire and foil conductor is
+presented. The finite element analysis has been performed to investigate
+the effects of the air-gap length and the number of turns on the field
+distribution, operating flux density, leakage flux and core losses.</FONT>

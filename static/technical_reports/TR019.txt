@@ -1,0 +1,9 @@
+This report describes the<P><FONT SIZE=3>&nbsp;<B><I>ABSTRACT</I></B>:This report describes the
+design and implementation of an experimental setup for Field Oriented Control
+(FOC) of permanent magnet machine based on a DSP (Digital Signal Processor)
+system manufactured by Texas Instruments. The DSP system integrates into
+a single board the computational power of a TMS320F240 DSP with extra peripherals
+needed in vector control application, and therefore requires minimal hardware
+development. The control algorithm implemented is the discrete time sliding
+mode control. Simulation and Experimental results are presented. A technique
+for position sensorless control is also discussed in this report.</FONT>

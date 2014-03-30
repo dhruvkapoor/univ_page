@@ -1,0 +1,14 @@
+<P>&nbsp;</A><FONT SIZE=3><B><I>ABSTRACT</I></B>:
+In high performance applications, the induction motor is controlled through field orientation techniques that require knowledge of the rotor speed. Since speed sensors decrease the reliability of a drive system (and increase its price), a common trend in motor control is to eliminate them and use a rotor speed observer to calculate the sought speed. <br>
+There are 4 major speed estimation techniques in literature:<br>
+-	open loop calculation (directly from motor equations)<br>
+-	model reference adaptive (MRA) based, <br>
+-	extended Kalman filter based, <br>
+-	sliding mode observer based. <br>
+<br>
+All methods use the induction motor model to construct a flux-speed observer out of which speed information can be subtracted. MRA[7] observers for induction motors[2-4] define two models (usually stator and rotor) that yield the same output (flux, back-emf, reactive power etc). One model is speed independent while other model contains speed terms.  The outputs of the two models are compared and their error is used to modify the value of the speed so that the error is driven to zero. An extended Kalman Filter method is proposed in [5] for the rotor speed identification. The idea consists in appending a fifth state (speed) to the motor equations and using an EKF to observe this fifth state. <br>
+<br>
+Common problems observed in all methods are: low speed estimation, speed estimation during fast transients, lack of robustness to parameter uncertainties. All known speed estimators depend on the induction motor model. Accurate knowledge of the model parameter is critical for speed estimation especially in the low speed range. <br>
+The authors used a sliding mode speed observer for speed estimation due to its robustness properties and its fast dynamic response. An analysis of the sources of errors that contributes to speed estimation errors shows that it is extremely difficult (if not impossible) to compensate these errors analytically (e.g. by calculating them and compensating for them). This difficulty comes mainly from the uncertainties in the error sources.  However, it was observed that by modifying the observer to include a variable gain in front of the current terms, the speed estimation error can be compensated. It was observed that this gain is a function of the speed of the motor and the loading (iq current). A fuzzy logic controller was developed to generate the mapping between this compensation gain and speed and loading.<br>
+Simulation and experimental results show the validity of the present approach.</FONT>
+<P>&nbsp;

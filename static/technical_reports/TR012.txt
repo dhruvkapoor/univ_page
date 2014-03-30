@@ -1,0 +1,26 @@
+<P><FONT SIZE=3>A
+
+The objective of this study is to investigate and develop a coherent on-line identification procedure using ANN based estimators to determine and track operating point dependent non-linear parameters of large utility generators for a certain model structure. For this purpose, it is essential to address the following problems and develop solution procedures:<br>
+
+<br>
+
+1.1 	Noise filtering: Measurement data acquired from testing of a synchronous machine is in general noise corrupted. The excitation system AC to DC conversion process, quantization errors in sensors and the surrounding electromagnetic interference are some of the contributing factors. Therefore, the measurement data provided should be properly filtered before using it in any estimation procedure.<br>
+
+<br>
+
+1.2 	Measurement data validation: Biased measurements and measurement offsets are some of the inevitable problems in real time data acquisition systems. Therefore, the measurement data provided should be validated for consistency before attempting to use it in estimation procedures.<br>
+
+<br>
+
+1.3 	Estimation of machine parameters for different operating points: Synchronous machine parameters significantly depend on machine saturation levels, internal magnetic field distributions, and variations, rotor speed changes, internal heating, skin effect etc. The feasibility of estimating machine parameters on-line as a function of operating condition should be investigated. <br>
+
+<br>
+
+1.4 	Modeling of machine saturation and parameter variations: Machine saturation is a complex phenomenon involving machine internal flux pattern which in turn depends on external loading conditions, excitation level, and the relative position of the rotor with respect to the magnetic axis of the stator winding. There exists no generalized synchronous generator saturation model which can accommodate all the physical factors that are known to affect saturation. In addition, the resistance parameters of a synchronous machine can change as a function of some internal factors such as operating temperature and skin effect. Therefore, there is a need to identify physical variables which might influence parameter changes and consequently develop a multidimensional strategy to map these variables into their variation manifold.<br>
+
+<br>
+
+1.5 	On-line tracking of machine parameters: The feasibility of tracking of machine parameters on-line as a function of operating condition should be investigated. Such a scheme can be used in detecting incipient faults. If the trajectory of a given parameter is compared against earlier trajectories of the same parameter, any deterioration which may cause changes in the parameter can be detected. For example, rotor body resistance may be substantially altered by rotor speed with respect to the rotating flux due to induced eddy currents in the iron. By calculating the i2r terms, the internal temperature of the machine may be calculated. Such calculations would help in detecting possible failure due to excessive temperature rise.
+
+</FONT>
+

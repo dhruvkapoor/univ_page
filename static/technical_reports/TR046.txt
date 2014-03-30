@@ -1,0 +1,19 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+The model of a photovoltaic (PV) source is needed for Maximum Power Point Tracking (MPPT) and power grid studies. The single diode model can fairly emulate PV’s characteristic. The only nonlinear element in this model is the single diode. This report presents Thevenin’s equivalent model for a PV source by piecewise linearization of the diode characteristic. The variation of the parameters with the change in temperature and irradiance is also studied. It is shown that Thevenin’s equivalent model of PV produces a voltage-current characteristic which represents the PV source operation fairly well.
+<br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A PV source has a non-linear voltage-current (V-I) characteristic, which can be modeled using current sources, diode(s), and resistors. Single-diode and double-diode models are widely used to simulate PV characteristics. The single-diode model emulates the PV characteristics fairly accurately. The manufacturer provides information about the electrical characteristics of PV by specifying certain points in its V-I characteristics, which are called remarkable points. 
+<br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This report uses the single-diode model to develop a Thevenin’s equivalent model of PV. It first discusses the parameter estimation of a single-diode model for a given temperature and irradiance and then it discusses developing Thevenin’s equivalent model by using those parameters. 
+The single diode model for PV consists of a current source representing the photo-generated current, a diode, and two resistances (series and parallel). 
+ <br>
+   <P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

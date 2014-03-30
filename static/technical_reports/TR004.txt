@@ -1,0 +1,8 @@
+</FONT></I></B> <FONT SIZE=3>Since the<P><B><I><FONT SIZE=3>ABSTRACT:</FONT></I></B> <FONT SIZE=3>Since the
+introduction of neodymium-iron-boron (NdFeB) magnetic materials brushless
+permanent magnet (PM) machines have found use in a wide variety of high
+performance applications. Various compositions of this magnetic material
+can produce larger flux densities than other PM materials previously used
+in brushless machines, even under more adverse demagnetization conditions.
+These properties make NdFeB permanent magnets suitable for variable speed
+drive and high precision control applications.</FONT>

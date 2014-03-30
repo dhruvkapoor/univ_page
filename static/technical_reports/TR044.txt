@@ -1,0 +1,17 @@
+&nbsp; </font>&nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>:&nbsp; </font>
+The human activities contribute to the global warming of the planet. As a result, every country strives to reduce carbon emissions. The world is facing not only the depletion of fossil fuels, but also its rising prices which causes the worldwide economic instability. Numbers of efforts are being undertaken by the Governments around the world to explore alternative energy sources and to achieve pollution reduction. Solar electric or photovoltaic technology is one of the biggest renewable energy resources to generate electrical power and the fastest growing power generation in the world. The main aim of this technical report is to analyze the interface of photovoltaic system to the load, the power electronics and the method to track the maximum power point (MPP) of the solar panel. <br>
+The first chapter consists of an overview of the PV market and cost. It describes the application of the PV system, the energy storage and the different standard requirement when having grid-connected PV system.<br>
+Then main emphasis is to be placed on the photovoltaic system, the modeling and simulation photovoltaic array, the MPP control and the DC/DC converter will be analyzed and evaluated. The step of modeling with MATLAB and Simulink of the photovoltaic system is shown respectively and simulation results are provided. The Simulink model of the PV could be used in the future for extended study with different DC/DC converter topology. Optimization of MPPT algorithm can be implemented with the existing Photovoltaic and DC/DC converter. <br>
+   <P align="left">
+<font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>

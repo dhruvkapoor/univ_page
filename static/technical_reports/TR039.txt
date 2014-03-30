@@ -1,0 +1,61 @@
+ The contributions &nbsp;<P align="left"><font size="3"><b><i>ABSTRACT</i></b>: The contributions 
+of this research include the application of a modified space vector pulse width 
+modulation (MSVPWM) scheme combined with robust servomechanism control in a 
+three-phase four-wire split dc bus inverter and real-time implementation of 
+Newton-Raphson Method on digital signal processors for on-line power system 
+identification and power flow control of a distributed generation (DG) unit. 
+This report addresses digital control strategies of solid-state electric power 
+converters for distributed generation applications in both island and 
+grid-connected modes. Three major issues of DG, island operation, grid-connected 
+operation, and front-end converter control, are discussed with proposed 
+solutions and related analysis. In island mode, a control approach is developed 
+for a three-phase four-wire transformerless inverter system to achieve voltage 
+regulation with low steady state error and low total harmonic distortion (THD) 
+and fast transient response under various load disturbances. The control 
+algorithm combines robust servomechanism and discrete-time sliding mode control 
+techniques. An MSVPWM scheme is proposed to implement the control under Clarke's 
+reference frame. The robust stability of the closed-loop system is analyzed. In 
+grid-connected mode, a real and reactive power control solution is proposed 
+based on the proposed voltage control strategy for island operation. The power 
+control solution takes advantage of a system parameter identification method and 
+a nonlinear feedforward algorithm, both of which are based on Newton-Raphson 
+iteration method. The proposed technique also performs gridline current 
+conditioning and yields harmonic free grid-line current. A phase locked loop (PLL) 
+based algorithm is developed as a part of the solution to handle possible 
+harmonic distorted grid-line voltage. In a DG unit with three-phase three-wire 
+ac-dc-ac double conversion topology including a controlled power factor 
+correction (PFC) front-end rectifier, unbalanced inverter load could cause 
+current and voltage fluctuation on the dc bus. Mathematical analysis is 
+conducted to disclose the mechanism of the dc bus voltage ripple and a notch 
+filter based rectifier control strategy is proposed to eliminate the impact of 
+the ripple and yield balanced input current. The effectiveness of the techniques 
+proposed in this report is demonstrated by both simulation and experimental 
+results. The implementation related technical details are included in the 
+specific chapters and attached electronic files.<br>
+<br>
+Technical details are provided in descriptions, illustrations, schematics, and 
+Matlab code about the frequency domain analysis and robust stability analysis 
+for the four-wire inverter study, the experimental setup power stage 
+configuration, the grid-connecting contactor design, and the dc bus overvoltage 
+protection board design. Simulink models and DSP code are given as electronic 
+files.<br>
+<br>
+.<br>
+If your company is a member of the Mechatronic Laboratory, please send the 
+request to receive a copy of any technical report. If you are not a member 
+please send a request to Ali Keyhani, Department of 
+Electrical Engineering, Mechatronics Program at the following address: Ali 
+Keyhani, Ohio State University, Electrical Engineering Department, Mechatronics 
+Systems Laboratory, 2015 Neil Ave., 205 Dereese Lab., Columbus, OH 43210.</font>
+<P align="left"><font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></font><font size="3">
+<b><br>
+</b></font>&nbsp;<FONT SIZE=3><B><FONT FACE="Times New Roman,Times"><A HREF="#top">Back to top</A></FONT></B>
+<BR>
+<HR WIDTH="100%" color=#000099>
+<H1>
+<FONT SIZE=+0 FACE><A href="/ems/mainy.html">Home
+Page</A></FONT></H1>
+<FONT SIZE=3 FACE="TimesNewRoman">&nbsp;</FONT>
+</BODY>
+</HTML>
