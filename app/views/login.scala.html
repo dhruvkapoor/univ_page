@@ -1,0 +1,16 @@
+@(loginForm: Form[(String, String)])(wasWrongLogin: Boolean)
+
+<!DOCTYPE HTML>
+
+<html>
+	<body>
+		@if(wasWrongLogin) {
+			Wrong login!<br />
+		}
+		@helper.form(action = routes.Admin.processLogin) {
+			@helper.inputText(loginForm("username"))
+			@helper.inputPassword(loginForm("password"))
+			<input type='submit' value='Login'/>
+		}
+	</body>
+</html>

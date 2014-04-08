@@ -2,7 +2,7 @@ package util.db.loader
 
 import util.db.Driver.simple._
 import util.db.DatabaseInteraction.dbSession
-import models.{Books, Papers, ResearchAreas, ResearchAreaDetails, TechnicalReports, Migrations}
+import models._
 
 import scala.slick.jdbc.meta.MTable
 
@@ -23,7 +23,8 @@ object CreateTables {
         "research_areas" -> TableQuery[ResearchAreas],
         "research_area_details" -> TableQuery[ResearchAreaDetails],
         "technical_reports" -> TableQuery[TechnicalReports],
-        "migrations" -> TableQuery[Migrations]
+        "migrations" -> TableQuery[Migrations],
+        "users" -> TableQuery[Users]
       )
       
       // Check whether the migration table exists

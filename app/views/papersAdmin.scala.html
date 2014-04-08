@@ -1,0 +1,21 @@
+@(newPaperForm: Form[models.Paper])
+
+<!DOCTYPE HTML>
+
+<html>
+	<body>
+		<h1>New Paper</h1>
+		@helper.form(action = routes.Admin.processPaper) {
+			@helper.inputRadioGroup(newPaperForm("category"),
+				options = helper.options("journal" -> "Journal", "conference" -> "Conference")
+			)
+			@helper.inputText(newPaperForm("authors"))
+			@helper.inputText(newPaperForm("title"))
+			@helper.inputText(newPaperForm("details"))
+			@helper.inputText(newPaperForm("abstractLink"))
+			@helper.inputText(newPaperForm("pdfLink"))
+			
+			<input type="submit" value = "Insert" />
+		}
+	</body>
+</html>

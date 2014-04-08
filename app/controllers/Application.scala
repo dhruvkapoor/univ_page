@@ -26,7 +26,7 @@ object Application extends Controller {
     dbSession withSession { implicit session =>
     	Ok(views.html.index(TableQuery[ResearchAreas].list))
     }
-  } 
+  }
   
   def publications = Action {
     dbSession withSession { implicit session =>

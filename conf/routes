@@ -17,6 +17,22 @@ GET 	/technicalReports			controllers.Application.technicalReports
 # Technical report
 GET 	/technicalReport/:id		controllers.Application.technicalReport(id: String)
 
+# Login page
+GET		/admin/login				controllers.Admin.login(wasWrongLogin: Boolean ?= false)
+
+# Login form processing controller
+POST	/admin/processLogin			controllers.Admin.processLogin
+
+# Logout
+GET		/admin/logout				controllers.Admin.logout
+
+#Admin page
+GET		/admin						controllers.Admin.admin
+
+# Inserting papers
+GET		/admin/papers				controllers.Admin.papers
+POST	/admin/processPaper			controllers.Admin.processPaper
+
 # Help page
 GET     /help                       controllers.Application.help
 
