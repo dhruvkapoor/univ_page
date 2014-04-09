@@ -28,6 +28,11 @@ object Application extends Controller {
     }
   }
   
+  def biography = Action {
+    Ok(views.html.biography(
+        Files.toString(new File("static/biography.txt"), Charsets.UTF_8)))
+  }
+  
   def publications = Action {
     dbSession withSession { implicit session =>
       val books = TableQuery[Books].list

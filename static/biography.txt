@@ -1,0 +1,15 @@
+<span style='font-weight:bold;'>Prof. Keyhani is a Fellow of the IEEE and a recipient of the Ohio State University,<!--
+--> College of Engineering Research Award for 1989, 1999, and 2003.</span> He was the Director of the<!--
+--> <a href='http://www2.ece.ohio-state.edu/ems/'>Department of Electrical and Computer Engineering Green Energy<!--
+--> Laboratory.</a> His research interests are in the areas of power electronics, multi-level converters, power systems<!--
+--> control, alternative energy systems, wind farm, fuel cells, photovoltaic cells, micro-turbines, distributed<!--
+--> generation systems, parameter estimation and control of electromechanical systems. Dr. Keyhani is the past<!--
+--> Chairman of the Electric Machinery Committee and the Past Editor of the IEEE Transactions on Energy Conversion.<!--
+--> He has worked for Westinghouse Electric Co, Hewlett-Packard Co. Columbus Southern Ohio-AEP, Foster Wheeler<!--
+--> Engineering, and TRW Control. He has performed research and worked as  a consultant for  Accuray, Combustion<!--
+--> Engineering, Asea Brown Boveri, TRW Controls, Harris Controls, Liebert, Delphi Automotive Systems, Mahab<!--
+--> Engineering, IRD, General Electric, General Motors, Ford and Foster Wheeler Engineering, . He has authored<!--
+--> many papers in the IEEE Transactions in Energy Conversion, Power Electronics, and Power Systems Engineering<!--
+--> in area of green energy, distributed generation, electric machine modeling, parameter estimation and system<!--
+--> identification, power electronic systems, design of virtual test beds for power electronics systems and control<!--
+--> of power systems.
